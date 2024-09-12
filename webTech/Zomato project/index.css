@@ -1,0 +1,472 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.backgroundimg{
+    position: relative;
+}
+.navagationbar img{
+  height: 482px;
+  width: 100%;
+  position: relative;
+}
+.headerpart{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+}
+.gettheapp{
+    width: 30%;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 1.4 rem;
+    font-weight: 500;
+    color: white;
+    margin: auto;
+    text-align: center;
+    
+}
+.IALS{
+    width: 70%;
+}
+.IALS ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+.IALS li{
+    font-size: 18px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 300;
+    color: white;
+    padding: 25px;
+}
+.imgtext{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    margin-bottom: 220px;
+}
+.imgtext img{
+    height: 60px;
+    width: 300px;
+}
+.foodDrinks{
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 15px;
+}
+.location{
+    height: 53px;
+    width: 243px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.location img{
+    height: 20px;
+    width: 17px;
+    padding: 0px 10px;
+}
+.location a{
+    font-size: 14px;
+    font-family:  Okra, Helvetica, sans-serif;
+}
+.inputcontainer input{
+    height: 53px;
+    width: 483px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.inputcontainer{
+    width: 770px;
+    height: 54px;
+    display: flex;
+    position: absolute;
+    bottom: 130px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 400px;
+}
+.inputcontainer img{
+    height: 12px;
+    width: 12px;
+    padding: 0px 10px;
+}
+.search img{
+    height: 18px;
+    width: 18px;
+    padding: 0px 10px;
+} 
+/* backgroundimg end */
+.ODN{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto 90px;
+}
+.OrderOnline img{
+    width: 346px;
+    height: 192px;
+    border-radius: 10px;
+}
+.OrderOnline a{
+    text-align: left;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 32px;
+    color: rgb(54, 54, 54);
+    font-family: Okra, Helvetica, sans-serif;
+}
+.OrderOnline p{
+    color: rgb(79, 79, 79);
+    font-weight: 400;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: inherit;
+    line-height: 1.5;
+    margin: 0px;
+}
+.foodcontainer{
+    border: solid 2px rgba(54, 54, 54, 0.525);
+    border-radius: 10px;
+    border-top: none;
+    border-bottom: none;
+}
+/* ODN ends */
+.xyz p{
+    font-size: 36px;
+    /* line-height: 1.2; */
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(28, 28, 28);
+    margin-bottom: 10px;
+    margin-left: 145px;
+}
+
+.explore{
+    font-weight: 300;
+    color: rgb(54, 54, 54);
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.allcollections{
+    color: rgb(224, 53, 70);
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 300px;
+    font-size: 16px;
+}
+.allcollections img{
+    height: 12px;
+    width: 12px;
+}
+.EA{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.newly{
+    position: relative;
+    margin: 40px 30px 60px;
+}
+.newly img{
+    width: 262px;
+    height: 320px;
+    position: relative;
+    border-radius: 10px;
+}
+.bar p{
+    font-size: 18px;
+    font-weight: 300px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: white;
+}
+.place{
+    font-size: 14px;
+    font-weight: 300px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: white; 
+}
+.place img{
+    height: 12px;
+    width: 12px;
+}
+.bar{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    margin-left: 10px;
+}
+.NBST{
+    display: flex;
+    justify-content:center;
+}
+/* Collection end */
+.popular{
+    color: rgb(54, 54, 54);
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-family:  Okra, Helvetica, sans-serif;
+    margin-left: 145px;
+}
+.area{
+    border: solid 1px black;
+    height: 79px;
+    width: 349px;
+    margin: 40px 40px 20px;
+}
+.area p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Okra, Helvetica, sans-serif;
+    color: rgb(28, 28, 28);
+    margin: 10px 10px;
+}
+.area img{
+    height: 15px;
+    width: 15px;
+    float: right;
+    margin-right: 10px;
+}
+.area a{
+    font-size: inherit;
+    font-weight: 300;
+    font-family:  Okra, Helvetica, sans-serif;
+    color: rgb(54, 54, 54);
+    margin: 10px 10px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+}
+.around{
+    padding-bottom: 70px;
+}
+/* Around end */
+.application{
+    background-color: rgb(255, 251, 247);
+    height: 480px;
+    width: 100%;
+    display: flex;
+}
+.leftcontainer img{
+    height:auto;
+    width: 250px;
+    background-color: rgb(255, 251, 247);
+    margin-right: 20px;
+}
+.leftcontainer{
+    width: 45%;
+    margin: auto;
+    text-align: end;
+}
+.rightcontainer{
+    width: 55%;
+}
+.rightcontainer p{
+    color: rgb(28, 28, 28);
+    font-weight: 500;
+    font-size: 44px;
+    font-family:  Okra, Helvetica, sans-serif;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.rightcontainer a{
+    font-size: inherit;
+    color: rgb(54, 54, 54);
+    font-weight: 300;
+    font-family:  Okra, Helvetica, sans-serif;
+}
+.EP input{
+    padding-top: 0.2rem;
+    cursor: pointer;
+    color: rgb(28, 28, 28);
+    margin: 20px 0px 10px 10px;
+}
+.EP a{
+    font-size: 16px;
+    font-family: Okra, Helvetica, sans-serif ;
+    font-weight: 300;
+}
+.placeholder{
+    font-size: 18px;
+    color: rgb(28, 28, 28);
+    font-family:  Okra, Helvetica, sans-serif;
+}
+.enter input{
+    height: 48px;
+    width: 292px;
+    border-radius: 5px;
+    border: solid 1px ;
+    outline: none;
+}
+.enter button{
+    height: 55px;
+    width: 150px;
+    background-color: rgb(239, 79, 95);
+    border-color: rgb(239, 79, 95);
+    color: white;
+    border-radius: 5px;
+    padding: 0px 16px;
+    font-size: inherit;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.enter{
+    padding-bottom: 10px;
+}
+.playapp{
+    display: flex;
+}
+.playapp img{
+    height: 40px;
+    width: 137px;
+    margin: 10px;
+}
+.DAF p{
+    margin: 0px 0px 0.5rem;
+    color: rgb(156, 156, 156);
+    font-size: 14px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+/* Application end */
+.exp{
+    color: rgb(54, 54, 54);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Okra, Helvetica, sans-serif;
+    padding: 0px 20px 20px;
+    margin-left: 200px;
+}
+.nearme{
+    height: 491px;
+    width: 100%;
+    padding: 50px 0px;
+}
+.PPTC img{
+    height: 10px;
+    width: 10px;
+    margin-left: 73%;
+    margin-top: 25px;
+}
+.PPTC{
+    height: 66px;
+    width: 1074px;
+    background-color: white;
+    border: solid 1px black;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    color: rgb(28, 28, 28);
+    margin-bottom: 20px;
+}
+.PPTC p{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/* near me end */
+.footer{
+    height: 481px;
+    width: 1076px;
+    margin: auto;
+    background: rgb(248, 248, 248);
+}
+.zomatologo img{
+    height: 28px;
+    width: 132px;
+    margin: 10px;
+}
+.india{
+    height: 38px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 10px;
+}
+.india img{
+    width: 22px;
+    height: 15px;
+    margin-left: 5px;
+}
+.da img{
+    height: 15px;
+    width: 15px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.india p{
+    font-size: 18px;
+    line-height: 20px;
+    color: rgb(28, 28, 28);
+    margin: 0px 5px 0px 2px;
+    font-weight: 400;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.footerhead{
+    display: flex;
+}
+.indiaenglish{
+    display: flex;
+    margin-left: 60%;
+}
+.texter{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutzomato p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 0px 12px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: black;
+}
+.aboutzomato ul{
+    list-style-type: none;
+}
+.aboutzomato li{
+    font-size: 14px;
+    margin: 8px 0px;
+    color: rgb(105, 105, 105);
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.socialimg img{
+    height: 22px;
+    width: 22px;
+    padding: 1px;
+}
+.downimg img{
+    height: 40px;
+    width: 137px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.boxcontent{
+    height: 70px;
+    width: 1076px;
+    border-top: solid 1px rgb(105, 105, 105);
+    margin: auto;  
+    background: rgb(248, 248, 248);
+}
+.boxcontent p{
+    font-size: 13px;
+    color: rgb(79, 79, 79);
+    margin-top: 23px;
+    font-family: Okra, Helvetica, sans-serif;
+}

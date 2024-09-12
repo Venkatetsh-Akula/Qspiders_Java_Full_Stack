@@ -1,0 +1,27 @@
+.para{
+    border-style: dotted;
+    border-width: 5px;
+    border-color:red;
+    border-radius:20px;
+}
+.para2{
+    border-top-style:dotted;
+    border-top-width:5px;
+    border-top-color:blue;
+    border-top-left-radius: 20px;
+
+    border-left-style:solid;
+    border-left-width:10px;
+    border-left-color: green;
+    border-bottom-left-radius: 20px;
+
+    border-bottom-style: dashed;
+    border-bottom-width: 5px;
+    border-bottom-color: red;
+    border-bottom-right-radius: 20px;
+
+    border-right-style:double;
+    border-right-width: 5px;
+    border-right-color:brown;
+    border-top-right-radius: 20px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>onclick Events</h1>
+    <button onclick="console.log('Hai')">
+        Click Here
+    </button>
+    <button onclick="fun()">
+        Click Here
+    </button>
+
+    <h1>Demo on prompt method & Double click Event</h1>
+    <button onclick="fullname()">CliCk Here</button>
+    <h1>Double Click Event</h1>
+    <button ondblclick="double()">
+        Click Here 
+    </button>
+
+    <h1>Multiple Events in single button</h1>
+    <button onclick="singleclick()" ondblclick="doubleclick()">
+        Click Here
+    </button>
+    <h1>Calculate the age of person</h1>
+    <button onclick="dob()">
+        Click Here
+    </button>
+
+    <h2>Key Board Events</h2>
+    <input type="text" onkeydown="key1()" placeholder="On Key Down">
+    <input type="text" onkeypress="key2()" placeholder="On Key Press" >
+    <input type="text" onkeyup="key3()" placeholder="On Key Up">
+    <script src="./11.Events.js"></script>
+
+    <h2>Mouse Events</h2>
+    <img src="./images/feature.png" alt="" height="200px" onmouseover="image()"> <br>
+    <img src="./images/feature.png" alt="" height="200px" onmousedown="image()"><br>
+    <img src="./images/feature.png" alt="" height="200px" onmouseout="image()"><br>
+
+    <h2>On Submit Events</h2>
+    <form onsubmit="printName(event)">
+    <input type="text" placeholder="Enter the first name">
+    <input type="text" placeholder="Enter the last name">
+    <input type="submit" name="" id="">
+    </form>
+
+    <form onsubmit="fullName(event)">
+        <input type="text" placeholder="Enter the first name">
+        <input type="text" placeholder="Enter the last name">
+        <input type="number">
+        <input type="submit" name="" id="">
+        </form>
+</body>
+</html>

@@ -1,0 +1,84 @@
+button,a{
+    border: solid 2px blue;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: white;
+    color: blue;
+    display: block;
+    margin: 10px auto;
+    transition: all 1s;
+}
+button:hover, a:hover{
+    background: blue;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+a{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+a:active{
+    border: none;
+    background: green;
+    box-shadow: none;
+}
+
+.box{
+    border: solid 0px black;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: all 3s;
+}
+.box:hover{
+    background: green;
+}
+.box:active{
+    background-color: red;
+    border-radius: 50%;
+}
+input{
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: solid 1px black;
+    padding: 10px;
+    box-shadow: inset -5px -5px 5px black;
+}
+input:focus{
+    outline:none;
+}
+input::placeholder{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    color: black;
+}
+input:hover::placeholder{
+    color: brown;
+}
+p{
+    font-size: 20px;
+    text-indent: 100px;
+
+}
+p::first-letter{
+    font-size: 50px;
+    color: red;
+    font-weight: bolder;
+    font-style: italic;
+}
+p::first-line{
+    color: blue;
+}
+p::selection{
+    background: black;
+    color: greenyellow;
+}

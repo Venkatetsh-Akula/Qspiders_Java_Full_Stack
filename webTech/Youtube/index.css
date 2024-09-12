@@ -1,0 +1,282 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    height: 56px;
+    width: 100%;
+    position: sticky;                                    /*important class*/
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    z-index: 1;
+}
+.MY{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    /* padding: 10px; */
+}
+.menulogo{
+    margin: 0px 10px;
+}
+.menulogo img{
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+}
+.YTlogo img{
+    height: 40px;
+    width: 90px;
+    margin-left: 10px;
+}
+.YTlogo{
+    margin: 0px 10px;
+}
+.searchinput input{
+    border: solid 2px #ccc;
+    border-right: none;
+    width: 454px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.searchinput input::placeholder{
+    margin-left: 20px;
+    text-indent: 20px;
+}
+.searchinput{
+    /* align-items: center; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 5px; */
+}
+.searchbox{
+    border: solid 2px #ccc;
+    width: 64px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.searchbox img{
+    height: 24px;
+    width: 24px;
+}
+.gooleasst img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+.VNA{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.VNA img{
+    margin: auto;
+}
+.cmm{
+    margin: 0px 15px;
+}
+.videoplus img{
+    height: 24px;
+    width: 24px;
+}
+.notificationlogo{
+    height: 40px;
+    width: 40px;
+}
+.loginlogo img{
+    height: 32px;
+    width: 32px;
+}
+.channelBox{
+    height: auto;
+    width: auto;
+    display: flex;
+    margin-left: 270px;
+    padding-bottom: 10px;
+    background-color: white;               
+    position: relative;                         /*important class*/
+}
+.all{
+    border: solid 0px black;
+    height: 32px;
+    width: auto;
+    background-color: #ccc;
+    color: #0f0f0f;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 0px;
+}
+.sidearrow img{
+    height: 20px;
+    width: 20px;
+    margin: 26px 10px 0px;
+}
+/* headder ends */
+.sideNavigation{
+    height: auto;
+    width: 216px;
+}
+.HSS ul{
+    list-style: none;
+    display: block;
+    margin: 20px 0px 0px 30px;
+    align-items: center;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.HSS ul li{
+    margin-bottom: 10px;
+}
+.HSS ul li img{
+    height: 24px;
+    width: 24px;
+    margin-right: 30px;
+}
+.borderboy{
+    width: 200px;
+    border: solid 1px #ccc;
+    margin: auto;
+    margin-top: 20px;
+}
+.you {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0px 0px 30px;
+}
+.you img{
+    height: 12px;
+    width: 12px;
+    margin-left: 20px;
+}
+.myblock ul{
+    list-style: none;
+    display: block;
+    margin: 30px 0px 0px 30px;
+    align-items: center;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.myblock ul li{
+    margin-bottom: 10px;
+}
+.myblock ul li img{
+    height: 24px;
+    width: 24px;
+    margin-right: 30px;
+}
+
+.Subscriptions a{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 30px;
+    /* margin: 20px 0px 0px 30px; */
+}
+.Subscriptions{
+    margin-top: 30px;
+}
+.Subscriptions ul{
+    list-style: none;
+    display: block;
+    margin: 30px 0px 0px 30px;
+    align-items: center;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.Subscriptions ul li{
+    margin-bottom: 10px;
+}
+.Subscriptions ul li img{
+    height: 24px;
+    width: 24px;
+    margin-right: 30px;
+}
+.sideNavigation{
+    /* position: absolute; */
+    bottom: -100px;
+    left: 0px;
+    z-index: -1;
+}
+/* sideNavigation */
+.sidebarAndcontentbar{
+    /* display: flex; */
+    /* border-style: solid;
+    border-width: 5px; */
+    /* text-align: justify; */
+    /* box-shadow: 0px 0px 8px grey; */
+    /* margin-left: 200px; */
+    width: 240px;
+    height: 660px;
+    overflow: auto;
+    position: fixed;                              /* important class*/
+}
+/* Videos Starts */
+.VideosJunkBox{
+    height: autopx;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 80px;
+}
+.videoandtextarea{
+    height: 425px;
+    width: 470px;
+    display: flex;
+}
+.VA video{
+    border: solid 0px black;
+    height:180px ;
+    width:390px ;
+    border-radius: 10px;
+}
+.VA{
+    margin: 10px;
+}
+.IT{
+    display: flex;
+}
+.IT img{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin:10px 20px 20px 10px ;
+}
+.BT{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 16px;
+    font-weight: 560;
+    margin:10px 20px 20px 10px ;
+}
+.timervideo img{
+    height: 14px;
+    width: 14px;
+}
+.timervideo{
+    color: #606060;
+    font-size: 14px;
+    font-family: "Roboto","Arial",sans-serif;
+    margin:10px 20px 20px 72px ;
+}

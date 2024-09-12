@@ -1,0 +1,137 @@
+.header{
+    border: solid 0px black;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #eeebec;
+}
+.logo{
+    padding-left: 150px;
+}
+.menu{
+    display: flex;
+    padding-left: 55%;
+}
+.txt{
+    padding: 0px 15px;
+}
+.product{
+    border: solid 0px black;
+    width: 100%;
+    height: 81px;
+    background: #c8c10d;
+    display: flex;
+}
+.insideText{
+    color: white;
+    margin: auto;
+    font-size: 30px;
+    font-weight: normal;
+    font-family:  lato-regular-webfont;
+}
+.container{
+    border: solid 0px black;
+    width: 100%;
+    height: auto;
+}
+.flavors{
+    margin-left: 15%;
+}
+.f img{
+    margin: 15px;
+}
+
+.f a{
+    padding-right: 30px;
+}
+.row1{
+    display: flex;
+}
+.row1 h1{
+    color: #E32A62;
+    font-family: magra-bold-webfont;
+    font-weight: normal;
+    font-size: 28px;
+}
+.row1 p{
+    color: #7A6666;
+    font-family: roboto-regular-webfont;
+    font-size: 14px ;
+    font-weight: normal;
+}
+.row2{
+    display: flex;
+}
+.row2 h1{
+    color: #E32A62;
+    font-family: magra-bold-webfont;
+    font-weight: normal;
+    font-size: 28px;
+}
+.row1 p{
+    color: #7A6666;
+    font-family: roboto-regular-webfont;
+    font-size: 14px ;
+    font-weight: normal;
+}
+.row3{
+    display: flex;
+}
+.row3 h1{
+    color: #E32A62;
+    font-family: magra-bold-webfont;
+    font-weight: normal;
+    font-size: 28px;
+}
+.row1 p{
+    color: #7A6666;
+    font-family: roboto-regular-webfont;
+    font-size: 14px ;
+    font-weight: normal;
+}
+.f{
+    position: relative;
+}
+.flavortext1{
+    position:relative;
+    left: 10px;
+    top: 80px;
+}
+.flavortext2{
+    position:relative;
+    left: 10px;
+    top: 80px;
+}
+.flavortext3{
+    position:relative;
+    left: 10px;
+    top: 80px;
+}
+.flavor1,.flavor3{
+    margin-left: 100px;
+}
+.flavor2{
+    margin-left: 175px;
+}
+.lastBlock{
+    border: solid 0px black;
+    width: 100%;
+    height: 272px;
+    background-color: #cb3362;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+.socialMedia{
+    border: solid 0px black;
+    height: auto;
+    text-align: center;
+}
+.socialMedia img{
+    padding: 10px;
+}
+.socialMedia p{
+    color: white;
+}

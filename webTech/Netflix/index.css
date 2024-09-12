@@ -1,0 +1,310 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.MainContainer{
+    background: url(./Images/moviesImg.jpg);
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/moviesImg.jpg);
+}
+.netflixlogo img{
+    height: 40px;
+    width: 148px;
+}
+.netflixlogo{
+    width: 40%;
+    height: auto;
+    margin: 40px 100px;
+}
+.language img{
+ height: 20px;
+ width: 20px;
+padding: 0px 10px ;
+}
+.language a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: rgb(255,255,255);
+}
+.LS button{
+    width: 76px;
+    height: 32px;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    background: rgb(229, 9, 20);
+    border:solid 0px;
+    border-radius: 5px;
+    margin: 23px 5px 0px 20px;
+}
+.language{
+    height: 35px;
+    width: 150px;
+    border: solid 2px white;
+    text-align: center;
+    margin: 20px 5px 0px 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LS{
+    width: 60%;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+}
+.UTV{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+.WA{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+    text-align: center;
+    margin: 20px 0px;
+}
+.question{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+    text-align: center;
+    margin: 20px 0px;
+}
+.EG input{
+    height: 56px;
+    width: 369px;
+    opacity: 0.5;
+    background-color: black;
+    border-radius: 5px;
+    margin: 0px 10px;
+    color: white;
+}
+.EG button{
+    width: 210px;
+    height: 56px;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    background: rgb(229, 9, 20);
+    border:solid 0px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.EG img{
+    height: 20px;
+    width: 20px;
+}
+.EG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* netflixBlock1 ends */
+.netflixBlock2{
+    background-color: black;
+    display: flex;
+}
+.breakBox{
+    height: 10px;
+    width: 100%;
+    background-color: #00000066;
+}
+.leftContainer{
+    width: 50%;
+    height: 523px;
+}
+.ETV{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-left: 150px;
+}
+.TVtext{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin: 20px 0px;
+    padding-left: 150px;
+}
+.EAAtv{
+    height: auto;
+    margin-top: 180px;
+}
+.rightContainer{
+    width: 50%;
+    margin: auto;
+}
+.rightContainer img{
+    margin: 20px 20px;
+    position: relative;
+}
+/* netflixBlock2 ends */
+.netflixBlock3{
+    background-color: black;
+    display: flex;
+}
+.leftContainer3{
+    width: 50%;
+    height: 523px;
+}
+.leftContainer3 img{
+      padding-left: 50px;
+      position: relative;
+}
+/* .STD{
+    height: 96px;
+    width: 327px;
+    border-color: #00000066;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.STD img{
+    height: 52px;
+    width: 72px;
+} */
+.rightContainer{
+    width: 50%;
+    margin: auto;
+}
+.ETV3{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.TVtext3{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin: 20px 0px;
+}
+.EAAtv3{
+    height: auto;
+    margin-top: 180px;
+}
+/* netflixBlock3 ends */
+.netflixBlock4{
+    background-color: black;
+    display: flex;
+}
+/* netflixBlock4 ends */
+.netflixBlock6{
+    background-color: black;
+    height: 928px;
+    width: 100%;
+} 
+.FAQ{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+}
+.plusBox{
+    height: 84px;
+    width: 1012px;
+    color: white;
+    background-color: rgb(45,45,45);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.WIN{
+    margin-left: 50px;
+}
+.plusBox img{
+  height: 36px;
+  width: 36px;
+  margin-right: 50px;
+}
+.RTW{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: rgb(255,255,255);
+    text-align: center;
+    margin: 40px 0px;
+}
+/* netflixBlock6 ends */
+.netflixBlock7{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.call{
+    color: rgba(255,255,255,0.7);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin: 60px 0px 30px 260px;
+
+}
+.taskbarText{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 150px;
+}
+.FIPS{
+    color: rgba(255,255,255,0.7);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    text-decoration: underline;
+    margin: 40px 20px 0px 100px;
+}
+.FIPS p{
+    margin: 10px;
+}
+.langBottom{
+    margin: 60px 0px 30px 260px;
+}
+.langBottom img{
+    height: 20px;
+    width: 20px;
+   padding: 0px 10px ;
+   }
+.langBottom a{
+       font-size: 16px;
+       font-weight: 400;
+       font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+       color: rgb(255,255,255);
+       background-color:brown
+}
+.NIndia{
+    color: rgba(255,255,255,0.7);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin: 20px 0px 30px 260px;
+}
+/* netflixBlock7 ends */

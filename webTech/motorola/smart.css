@@ -1,0 +1,257 @@
+*{
+  margin: 0; padding: 0;
+}
+
+body{
+
+      overflow-x: hidden;
+      background-color:#001428;;
+}
+:root {
+  --blue: #001428;
+  --blue2:rgba(0, 10, 19, 0.8);
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  padding: 15px 18px !important;
+  position:fixed;
+  top: 0px;
+  background-color: var(--blue);
+  box-shadow: 0 6px 20px rgba(0,0,0,.16);
+  overflow: hidden;
+
+
+}
+.header {
+  width: 95%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+.header .nav-logo-con {
+  filter: invert(1) grayscale(1);
+  width: 9%;
+  height: auto;
+}
+.header .nav-logo-con img {
+  width: 100%;
+  height: 100%;
+}
+.header ul {
+  display: flex;
+  height: 100%;
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+}
+.header ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.header ul a {
+  text-decoration: none;
+  color: #fffff1;
+  font-size: 14px;
+}
+
+.header ul a li span img {
+  filter: invert(1) grayscale(1);
+  width: auto;
+  height: 20px;
+  vertical-align: top;
+}
+.header .nav-input {
+  width: 40%;
+}
+.nav-input input {
+  width: 100%;
+  padding: 15px;
+  border: none !important;
+}
+.nav-input input:focus{
+  outline:none;
+}
+
+.second-part {
+  margin-top: 45px;
+  width: 99%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.second-part .first-section {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.second-part .first-section .ham{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+
+}
+.second-part .first-section .ham img{
+  filter: invert(1) grayscale(1);
+  vertical-align: bottom;
+}
+.second-part .first-option {
+  margin-left: 60px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 55%;
+}
+.second-part .first-option a {
+  text-decoration: none;
+  color: #fff;
+}
+.second-part .first-option a li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  align-content: center;
+}
+.second-part .first-option a img {
+  vertical-align: bottom;
+}
+.first-option span img {
+  height: 20px;
+  width: 20px;
+  filter: invert(1) grayscale(1);
+}
+.second-part .second-option {
+  /* margin-left: 560px; */
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 13%;
+}
+.second-option a {
+  text-decoration: none;
+  color: #ddc8b7;
+  font-weight: 300;
+}
+.main-container{
+  margin-top: 200px;
+  margin-left: 60px;
+}
+.main-container img{
+  width: 95%;
+  height: 250px;
+ 
+}
+.tv{
+  color: white;
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 25px;
+}
+.available{
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+}
+.flipkart{
+  text-align: center;
+}
+.four-images{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #001428;
+  margin-left: 20px;
+  margin-top: 80px;
+  justify-content: space-around;
+  width: 98%;
+  margin-right: 1%;
+}
+.four-images .cards{
+background-color: #0b1e32f9;
+width: 350px;
+height: 300px;
+}
+.four-images img{
+  margin-left: 70px;
+  text-align: center;
+}
+.four-images p{
+  margin-left: 70px;
+  color: white;
+  margin-top: -20px;
+}
+
+.official .logo-again{
+  filter: invert(1) grayscale(1);
+  width: 9%;
+  height: auto;
+  margin-left: 12%;
+  margin-top: -55px;
+}
+.official .logo-upper{
+  color: white;
+  font-size: 18px;
+  margin-left: 15%;
+  margin-top: 25px;
+}
+.official .follow{
+  color: white;
+  font-size: 18px;
+  margin-left: 45%;
+  margin-top: -20px;
+}
+.icons-social{
+  display: flex;
+  margin-left: 45%;
+  
+}
+
+.official .icons-social img{
+  width: 40px;
+  padding: 5px;
+  
+}
+.official .india img{
+  width: 40px;
+  
+}
+.official .india{
+  margin-left: 80%;
+  margin-top: -20px;
+}
+.lower-footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  
+}
+.lower-footer ul{
+  list-style: none;
+  color: white;
+  font-weight: normal;
+  font-size: 15px;
+}
+.lower-footer .pro{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.mobility{
+  background-color: white;
+  text-align: center;
+  color: #000000c4;
+  font-weight: normal;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.official{
+  margin-top: 180px;
+}

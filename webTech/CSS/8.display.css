@@ -1,0 +1,89 @@
+h1{
+text-align: center;    
+}
+a{
+    display: block;
+    text-align: center;
+}
+button{
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    width: 100px;
+}
+
+.box{
+    border: solid 0px black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* margin: 20px; */
+}
+.c1{
+    background: red;
+}
+.c2{
+    background: yellow;
+}
+.c3{
+    background: green;
+}
+.container{
+    border: solid 1px black;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sqr{
+    border: solid 2px black;
+    background: yellow;
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-weight: bold ;
+}
+.outsqure{
+    border: solid 0px black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin: 20px auto;
+}
+.innercircle{
+    border: solid 0px black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    /* flex-direction: column; */
+}
+
+input{
+    display: block;
+    margin: 20px auto;
+}
+
+/*Attribute Selector*/
+input[type="submit"]{
+    width: 100px;
+    background: blue;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+}
+
+input[text="text"]{
+    color: red;
+}
+input[type="text"]{
+    color: blueviolet;
+}

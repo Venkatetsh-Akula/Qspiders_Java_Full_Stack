@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    <table border="1px" cellspacing="10" align="center">
+        <tr>
+           <th colspan="4">
+                <input type="text" placeholder="Calculate">
+           </th> 
+        </tr>
+        <tr>
+            <th colspan="2" onclick="refresh()">CE</th>
+            <th onclick="getValue(event)">/</th>
+            <th onclick="getValue(event)">*</th>
+        </tr>
+        <tr>
+            <th onclick="getValue(event)">7</th>
+            <th onclick="getValue(event)">8</th>
+            <th onclick="getValue(event)">9</th>
+            <th onclick="getValue(event)">-</th>
+        </tr>
+        <tr>
+            <th onclick="getValue(event)">4</th>
+            <th onclick="getValue(event)">5</th>
+            <th onclick="getValue(event)">6</th>
+            <th onclick="getValue(event)">+</th>
+        </tr>
+        <tr>
+            <th onclick="getValue(event)">1</th>
+            <th onclick="getValue(event)">2</th>
+            <th onclick="getValue(event)">3</th>
+            <th onclick="result()">=</th>
+        </tr>
+    </table>
+    <script src="./App.js"></script>
+</body>
+</html>

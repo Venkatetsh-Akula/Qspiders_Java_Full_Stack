@@ -1,0 +1,44 @@
+.box{
+    border: solid 0px black;
+    height: 500px;
+    width: 500px;
+    font-size: 300px;
+    color: red;
+    text-align: center;
+    margin:auto 20px;
+    animation-name: heartbeat;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes heartbeat {
+    50%{
+        transform: scale(1.2);
+    }
+    
+}
+body{
+    background: black;
+}
+.container{
+    border: solid 2px black;
+    height:250px;
+    width: 250px;
+    background: radial-gradient(red,white,red);
+    animation-name: something;
+    animation-duration: 5s;
+}
+@keyframes something {
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        /* transform: scale(1.2);
+        transform: rotate(90deg);
+        transform: scale(1.2) rotate(90deg); */
+        transform: scale(2) rotate(10turn);
+        border-radius: 50%;
+    }
+    100%{
+        transform: scale(0);
+    }
+}

@@ -1,0 +1,144 @@
+.header{
+    border: solid 0px black;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #eeebec;
+}
+.logo{
+    padding-left: 150px;
+}
+.menu{
+    display: flex;
+    padding-left: 55%;
+}
+.txt{
+    padding: 0px 15px;
+}
+.product{
+    border: solid 0px black;
+    width: 100%;
+    height: 81px;
+    background: #c8c10d;
+    display: flex;
+}
+.insideText{
+    color: white;
+    margin: auto;
+    font-size: 30px;
+    font-weight: normal;
+    font-family:  lato-regular-webfont;
+}
+.map{
+    border: solid 0px black;
+    width: 100%;
+    height: 249px;
+    background-image: url(./1.FreeezeProjectImages/frozenyogurtshop/frozenyogurtshop/images/map.jpg);
+}
+.address{
+    border: solid 0px black;
+    width: 60%;
+    height: 60%;
+    display:  flex;
+    margin-left: 28%;
+    padding-top: 50px;
+}
+.imgContent{
+display: flex;
+margin: 30px 50px;
+}
+.imgContent img{
+    margin-right: 30px;
+}
+.content h1{
+    color: #CB3362;
+    font-family: lato-regular-webfont;
+    font-size: 24px;
+    font-weight: normal;
+}
+.content p{
+    color: #7a6666;
+    font-family: roboto-regular-webfont;
+    font-size: 14px;
+    font-weight: normal;
+}
+.userDetails input{
+    border: solid 1px #B6ADB0;
+    width: 548px;
+    padding: 10px;
+    margin: 8px;
+}
+.userDetails textarea{
+    border: solid 1px #B6ADB0;
+    width: 548px;
+    padding: 10px;
+    margin: 8px;
+}
+.userDetails h1{
+    color: #CB3362;
+    font-family: lato-regular-webfont;
+    font-size: 24px;
+    font-weight: normal;
+}
+.userDetails{
+    margin-left: 25%;
+}
+.userDetails button{
+    border: solid 2px #c5abb4;
+    width: 141px;
+    height: 40px;
+    font-family: lato-bold-webfont;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin: 10px;
+}
+.userDetails button:hover{
+    background-color: #c8c10d;
+    border: none;
+}
+.para{
+    border: solid 0px black;
+    height: 200px;
+    width: 300px;
+    background-color: #EFEDEE;
+    margin-top: 65px;
+    text-align: center;
+}
+.para h1{
+    color: #CB3362;
+    font-family: lato-regular-webfont;
+    font-size: 24px;
+    font-weight: normal;
+}
+.para p{
+    color: #7A6666;
+    font-family:  roboto-regular-webfont;
+    font-size: 14px;
+    font-weight: normal;
+}
+.container{
+    display: flex;
+}
+.lastBlock{
+    border: solid 0px black;
+    width: 100%;
+    height: 272px;
+    background-color: #cb3362;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+.socialMedia{
+    border: solid 0px black;
+    height: auto;
+    text-align: center;
+}
+.socialMedia img{
+    padding: 10px;
+}
+.socialMedia p{
+    color: white;
+}

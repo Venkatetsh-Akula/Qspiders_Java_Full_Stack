@@ -1,0 +1,66 @@
+.header{
+    border: solid 0px black;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.container{
+display: flex;
+justify-content: space-evenly;
+}
+.photos{
+    border: solid 2px black;
+    height: 150px;
+    width: 150px;
+    color: indigo ;
+}
+.s1{
+    background-image: linear-gradient(orange,white,green);
+}
+.s2{
+    background-image: linear-gradient(to left,red,yellow,green);
+    /* to bottom(defalt) /to right / to left / to top */
+}
+.s3{
+    background-image: linear-gradient(to top left, blue,aqua,purple);
+    /* to top left /to top right/ to bottom right /to bottom left */
+}
+.r1{
+    background-image: radial-gradient(yellow,red,black);
+}
+.r2{
+    background-image: radial-gradient(circle at top, red,yellow,orange);
+    /* circle at top /circle at bottom / circle at left/ circle at right */
+}
+.r3{
+    background-image: radial-gradient(crimson 30%,skyblue,indigo);
+}
+.c1{
+    border: solid 0px black;
+    height: 150px;
+    width: 150px;
+    background: conic-gradient(red,black,yellow,red);
+    margin: auto;
+}
+.box{
+    border: solid 0px black;
+    height: 30px;
+    width: 100%;
+}
+.o1{
+    border: solid 0px black;
+    height: 150px;
+    width: 150px;
+    background-image: linear-gradient(red,rgba(255,0,0,0));
+    margin: auto;
+}
+h1{
+    text-align: center;
+    opacity: 0.5;
+}
+.rainbow{
+    background-image: linear-gradient(violet,indigo,blue,green,red,orange);
+    margin: 10px;
+}

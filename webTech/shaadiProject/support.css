@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.mainheader{
+    width: 50%;
+    text-align: center;
+    margin-top:5px;
+}
+.header{
+    height: 65px;
+    width: 100%;
+    display: flex;
+}
+.mainheader img{
+    width: 158px;
+    height: 39px;
+}
+.mainheader p{
+    color: #b1b3b9;
+    font: 11px arial;
+}
+.memberhelp img{
+    height: 7px;
+    width: 8px;
+    margin: 14px 9px 0 0;
+}
+.memberhelp span{
+    padding: 6px 5px 0 9px;
+    color: #72727d;
+    font-size: 12px;
+    font-family: arial;
+}
+.memberhelp{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+/* header end */
+.RSMIM{
+    height: 40px;
+    width: 100%;
+    background-color: #ff5a60;
+}
+.RSMIM ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font: bold 15px arial;
+    color: #fcdee0;
+    line-height: 40px;
+    margin-left:280px;
+}
+.RSMIM li{
+    padding: 0px 18px;
+}
+/* RSMIM end */
+.backgrounddesk{
+    background-image: url(./shaadiImages/banner-v3.jpg);
+    height: 165px;
+    width: 100%;
+    background-size: cover;
+}
+.backgrounddesk p{
+    color: #fff;
+    font: 300 28px Roboto;
+    text-align: center;
+    margin: 0 auto 18px;
+    padding-top: 50px;
+}
+.backgrounddesk{
+    text-align: center;
+}
+.backgrounddesk input{
+    border: 0;
+    color: #183247;
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 704px;
+    height: 60px;
+    padding-left: 50px;
+}
+/* backgrounddesk end */
+.PMCSRR p{
+    width: 954px;
+    color: #51505d;
+    font-size: 20px;
+    padding: 0 0 1px;
+    margin: 0 auto;
+    padding: 5px 0 5px 0 !important;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    color: #f1f1f2;
+}
+.box1{
+    height: 64px;
+    width: 466px;
+    font: 300 18px Roboto !important;
+    color: #00bcd5 !important;
+    background-color: white;
+}
+.box1 img{
+    height: 32px;
+    width: 32px;
+}

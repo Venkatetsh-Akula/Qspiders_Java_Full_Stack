@@ -1,0 +1,19 @@
+#hardcore{
+    color:blue;
+    background-color:skyblue;
+    width: 30%;
+}
+#hexa{
+    color:#ffff00;
+    background-color: #ff0000;
+    width: 50%;
+}
+#decimal{
+    color: rgb(5, 182, 5);
+    background-color: rgb(209, 57, 209);
+    width: 80%;
+}
+.col{
+    color:#ffff00;
+    background-color: orangered;
+}

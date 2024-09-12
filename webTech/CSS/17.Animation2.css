@@ -1,0 +1,75 @@
+.box{
+    border: solid 2px black;
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    animation-name: movement;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 2s;
+    animation-direction: alternate; /*alternate reverse alternate-reverse*/
+}
+@keyframes movement {
+    /* 0%{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        position: relative;
+        top: 0px;
+        left: 400px;
+    }
+    50%{
+        position: relative;
+        top: 400px;
+        left: 400px;
+    }
+    75%{
+        position: relative;
+        top: 400px;
+        left: 0px;
+    }
+    100%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    } */
+
+    0%{
+        width: 200px;
+        border-radius: 0%;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        width: 400px;
+        border-radius: 0%;
+        position: relative;
+        top: 0px;
+        left: 400px;
+    }
+    50%{
+        width: 400px;
+        border-radius: 50%;
+        position: relative;
+        top: 400px;
+        left: 400px;
+    }
+    75%{
+        width: 200px;
+        border-radius: 50%;
+        position: relative;
+        top: 400px;
+        left: 0px;
+    }
+    100%{
+        width: 200px;
+        border-radius: 0%;
+        position: relative;
+        top:0px;
+        left: 0px;
+    }
+    
+}

@@ -1,0 +1,44 @@
+.box{
+    border: solid 2px black;
+    height: 100px;
+    width: 200px;
+    background: yellow;
+    margin-left: 50%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.cicr{
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+    background: teal;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.box1{
+    border: solid 2px black;
+    height: 100px;
+    width: 200px;
+    background: yellow;
+    margin:auto;
+}
+
+.padding-box{
+    border: solid 1px black;
+    height: 150px;
+    width: 200px;
+    background: yellowgreen;
+    padding-left:50px;
+    padding-top:100px;
+    margin: 30px;
+}
+
+.circle{
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    padding: 30px 50px 60px 80px;
+}

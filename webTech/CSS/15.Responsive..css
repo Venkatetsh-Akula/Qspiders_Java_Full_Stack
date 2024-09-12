@@ -1,0 +1,50 @@
+body{
+    background-color: lightgray;
+}
+.box{
+    border: solid 2px black;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+.c1{
+    background: red;
+}
+.c2{
+    background: yellow;
+}
+.c3{
+    background: green;
+}
+
+@media screen and (min-width:200px) and (max-width:400px){
+    body{
+        background-color: blue;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    
+}
+
+@media screen and (min-width:401px) and (max-width:550px){
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .box{
+        height: 50px;
+        width: 80%;
+    }
+}

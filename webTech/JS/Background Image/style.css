@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(lightpink,lightblue);
+}
+.BGIP{
+    border: solid 1px black;
+    height: 500px;
+    width: 95%;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center;
+}
+.Bicons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url();
+}
+.Bicons img{
+    height: 50px;
+    width: 50px;
+}

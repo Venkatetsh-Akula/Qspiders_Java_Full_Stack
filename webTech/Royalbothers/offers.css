@@ -1,0 +1,277 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.phonenumber img{
+    height: 12px;
+    width: 12px;
+}
+.phonenumber{
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    font-family: "Muli", sans-serif;
+    float: right;
+}
+.phonenumber a{
+    font-weight: 600;
+    font-size: 16px;
+    color: #006ccc;
+    font-family: "Muli", sans-serif;
+}
+.logopart{
+    width: 60%;
+    align-items: center;
+    display: flex;
+}
+.menu{
+    margin: 0px 30px;
+}
+.menu img{
+    height: 19px;
+    width: 21px;
+}
+.RBlogo img{
+    height: 52px;
+    width: 147px;
+}
+.TWOP{
+    margin-left: 100px;
+}
+.TWOP ul{
+    display: flex;
+    list-style:none;
+    font-family: "Muli", sans-serif;
+    color: #303030 !important;
+    font-weight: 600;
+    font-size: 18px !important;
+}
+.TWOP ul img{
+    height: 11px;
+    width: 11px;
+}
+.rbxsub img{
+    height: 39px;
+    width: 56px;
+    margin-left: 40px;
+}
+.TWOP li{
+    margin:0px 10px;
+}
+.LSL{
+    width: 40%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.location{
+    border: solid 2px yellow;
+    width: 209px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 200;
+    font-size: 18px !important;
+    font-family: "Muli", sans-serif;
+}
+.location img{
+    height: 21px;
+    width: 13px;
+}
+.location a img{
+    height: 12px;
+    width: 12px;
+}
+.identybar{
+    display: flex;
+    box-shadow: 0 0 5px 0.2px #303030;
+}
+.LS{
+    display: flex;
+    margin: 0px 10px;
+}
+.Login{
+    height: 36px;
+    width: 71px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    color: rgba(0,0,0,0.87);
+    font-size: 16px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    height: 36px;
+    width: 71px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: #fed250;
+    color: #303030 !important;
+    border-radius: 5px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.connector{
+    margin-left: 180px;
+    display: flex;
+}
+.headerpart{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+/* header part end  */
+.bikeset{
+    position: relative;
+}
+.BSS img{
+    height: auto;
+    width: 100%;
+}
+.blurebox{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    opacity: 0.5;
+}
+.textera{
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    position: absolute;
+    bottom: 5px;
+}
+/* bikeset ends */
+.SNS img{
+    width: 400px;
+    height: 211px;
+    margin: 20px 30px;
+    box-shadow: 0 0 9px 0.2px #303030;
+}
+.SNS{
+    display: flex;
+    justify-content: center;
+}
+/* RMR ends */
+.RCPQ{
+    background-color:#373737;
+    display: flex;
+    justify-content: space-evenly;
+}
+.RCPQ ul{
+    list-style: none;
+}
+.RCPQ ul p{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    color: #fff;
+    font-family: "Muli", sans-serif;
+    margin: 30px 20px;
+}
+.RCPQ ul li{
+    color: #fff;
+    margin: 20px 10px;
+}
+.RCPQ ul li img{
+ height: 22px;
+ width: 27px;
+ margin: 0px 10px;
+}
+/* RCPQ ends */
+.socialmedia{
+    background-color: #373737;
+    margin-left:170px ;
+}
+.socialmedia  p{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    color: #fff;
+    font-family: "Muli", sans-serif;
+    margin: 30px 20px;
+}
+.socialmedia ul li img{
+    height: 30px;
+    width: 41px;
+}
+.socialmedia ul{
+    list-style: none;
+    display: flex;
+}
+.socialmedia ul li{
+    margin: 20px 10px;
+}
+.PS p{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    color: #fff;
+    font-family: "Muli", sans-serif;
+    margin: 30px 20px;
+}
+.PS ul{
+    list-style: none;
+    display: flex;
+}
+.PS ul li{
+    margin: 20px 20px;
+}
+.PS ul li img{
+    height: 44px;
+    width: 142px;
+}
+.PS{
+    margin-left:80px ;
+}
+.SD{
+    display: flex;
+    background-color:#373737;
+}
+.ourlocations{
+    border: solid 0px black;
+    height: auto;
+    background-color: #373737;
+}
+.OP{
+    font-size: 32px !important;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Muli", sans-serif;
+    text-align: center;
+    margin-top: 70px;
+}
+.NOL{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #dddddd9e;
+    font-family: "Muli", sans-serif;
+    /* margin-bottom:30px ; */
+    text-align: center;
+    padding: 30px;
+}
+/* op ends */
+.footer{
+    color: #fff;
+    text-align: center;
+    background-color: #252424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px !important;
+    font-family: "Muli", sans-serif;
+}

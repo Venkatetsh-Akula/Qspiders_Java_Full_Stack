@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    padding:40px 0px;
+    background: linear-gradient(orange,yellow);
+}
+button{
+    height: 40px;
+    width: 20%;
+    display: block;
+    margin: 20px auto;
+}
+.DOTP{
+    border: solid 0px black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

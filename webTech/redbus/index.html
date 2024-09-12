@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <nav class="nav-bar">
+    <div>
+      <div class="burger-icon">
+        <img src="./images/icons8-menu-30.png" alt="" onclick="myFunction()">
+      </div>
+
+      <ul>
+        <li class="logo-img">
+          <img src="./images/rdc-redbus-logo.svg" alt="redbus-img" />
+        </li>
+        <div class="close" id="my-link">
+          <div class="second-nav" id="my-link">
+            <ul>
+              <li>
+                <img src="./images/nav-img-2.svg" alt="#" />
+                <p>Bus Ticket</p>
+              </li>
+
+              <li>
+                <img src="./images/nav-img-2.1.svg" alt="" />
+                <span>
+                  <p>Cab Rental</p>
+                </span>
+              </li>
+
+              <li>
+                <img src="./images/red-rail-nav-3.svg" alt="" />
+                <span>
+                  <P>Train Tickets</P>
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="right-nav">
+            <ul>
+              <li>
+                <div class="help">
+                  <img src="./images/icons8-help-50.png" alt="">
+                </div>
+                <p>Help</p>
+              </li>
+
+              <li>
+                <div class="acc">
+                  <img src="./images/icons8-account-48.png" alt="">
+                </div>
+
+                <p>Account </p>
+              </li>
+            </ul>
+          </div>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+  <section class="secondsec">
+    <ul class="secondsec">
+      <form name="myForm" id="form1">
+        <div class="er1">
+          <div class="erfrom">
+            <span class="errfrom" id="from-err"></span>
+          </div>
+
+          <div class="erto">
+            <span class="errto" id="to-err"></span>
+          </div>
+
+          <div class="erdate">
+            <span class="" id="date-err"></span>
+          </div>
+        </div>
+        <div class="border">
+          <div class="one">
+            <div class="err">
+            </div>
+            <img src="./images/bus-icon.png" alt="bus">
+            <span>
+              <p>From</p>
+            </span>
+            <input type="text" id="from" name="from1" placeholder="Enter city">
+          </div>
+
+          <!-- <sub id="to-error"></sub> -->
+          <div class="two">
+            <img src="./images/bus-icon.png" alt="bus">
+            <span>
+              <p>To</p>
+            </span>
+            <input type="text" id="to" name="to1" placeholder="Enter city">
+          </div>
+
+          <div class="three">
+            <!-- <img src="./images/calendar.png" alt="calendar">
+          <span>
+            <p>Date</p>
+          </span> -->
+            <input type="date" name="date1" id="date">
+          </div>
+          <li class="lastsec">
+            <span>
+              <button id="btna">
+                search busses
+              </button>
+            </span>
+          </li>
+        </div>
+      </form>
+    </ul>
+    <!-- <div id="carouselExample" class="carousel slide"> -->
+
+    <!-- <div class="carousel-inner"> -->
+    <div class="offers">
+
+    
+      <div class="psearch">
+        <p id="psearch"></p>
+      </div>
+
+      <div class="api" id="api">
+      </div>
+      <!-- <div class="carousel-item active"> -->
+      <div class="first">
+        <div id="firstOne" class="Ffirst">
+        </div>
+      </div>
+      <!-- </div> -->
+      <!-- </div> -->
+    </div>
+  </section>
+
+  <section>
+    <div class="redsection2">
+      <div class="section1-one">
+        <div class="section2-left">
+          <h1>TRENDING OFFERS</h1>
+        </div>
+        <div class="section2-right">
+          <button>View All</button>
+        </div>
+      </div>
+      <div class="section1-two">
+        <div class="boxsection2 one">
+          <div class="oneimg">
+            <img src="./images/trending1.png" alt="" />
+          </div>
+          <div class="onecont">
+            <button>bus</button>
+            <h2>
+              Save up to Rs 250 on <br />
+              Bus Tickets
+            </h2>
+            <p>valid Till jan 31</p>
+            <a href="">First</a>
+          </div>
+        </div>
+        <div class="boxsection2 two">
+          <div class="twoimg"><img src="./images/trending2.png" alt="" /></div>
+          <div class="twocont">
+            <button>bus</button>
+            <h2>
+              Save up to Rs 250 on <br />
+              Bus Tickets
+            </h2>
+            <p>valid Till jan 31</p>
+            <a href="">First</a>
+          </div>
+        </div>
+        <div class="boxsection2 three">
+          <div class="threeimg">
+            <img src="./images/trending3.png" alt="" />
+          </div>
+          <div class="threecont">
+            <button>bus</button>
+            <h2>
+              Save up to Rs 250 on <br />
+              Bus Tickets
+            </h2>
+            <p>valid Till jan 31</p>
+            <a href="">First</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="thirdsec">
+    <div class="include">
+      <div class="boldText">
+        <p>Now ,</p>
+        <p><b>Get More Than <br>
+            Just Bus </b>Tickets With</p>
+        <p> REDBUS!</p>
+        <div class="bookings">
+          <ul>
+            <li>
+              <img src="./images/nav-img-2.1.svg" alt="">
+              <span>
+                <p>Cab/Bus Rental</p>
+              </span>
+            </li>
+
+            <li>
+              <img src="./images/nav-img-2.svg" alt="">
+              <span>
+                <p>Train Tickets</p>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <p class="book1">Rent cabs, Tempo Travellers & Busses with best drivers</p>
+
+        <div class="book2">
+          <ul>
+            <div class="flex1">
+              <li>
+                <img src="./images/carBook.svg" alt="">
+                <span>
+                  <p><b>Outstation</b></p>
+                </span>
+              </li>
+
+              <li>
+                <img src="./images/timeBook.svg" alt="">
+                <span>
+                  <p><b>Hourly Rental</b></p>
+                </span>
+              </li>
+
+              <li>
+                <img src="./images/planeBook.svg" alt="">
+                <span>
+                  <p><b>Airport Transfers</b></p>
+                </span>
+              </li>
+            </div>
+            <li>
+              <button class="bookBtn">Book cab/Bus Rental <img class="arrowBtn" src="./images/right-arrow.png"
+                  alt="right-arrow"></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bigimg">
+        <img src="./images/rydePop.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="details">
+    <div class="appdetails">
+      <div class="access">
+        <p class="enjoy">ENJOY THE APP!</p>
+        <div class="access1">
+          <ul>
+            <li>
+              <p> <img src="./images/tick.svg" alt="">quick Acess</p>
+            </li>
+            <li>
+              <p><img src="./images/tick.svg" alt=""> Superiror live Tracking</p>
+            </li>
+            <div class="rating">
+              <li>
+                <p>
+                  <b>4.5</b>
+                  <br>
+                <p>50M+ dowanloads
+                </p>
+                playstore
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  <b>4.5</b>
+                  <br>
+                <p>50M+ dowanloads</p>
+                AppStore
+                </p>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="contact101">
+          <p class="say">Get Dowanload Link On</p>
+          <div class="contactli">
+            <div class="contact1">
+              <p>+91</p>
+            </div>
+
+            <div class="contact2">
+              <input type="text" placeholder="Enter Whatsapp Number">
+            </div>
+            <button class="cont">get Link </button>
+          </div>
+
+        </div>
+
+        <div class="qrcode">
+
+          <div class="qr">
+            <p>Scan To Dowanload</p>
+            <img src="./images/qrCode.svg" alt="">
+          </div>
+
+          <div class="appstore">
+            <p class="store"> Dowanload The App On</p>
+            <img src="./images/playStore.svg" alt="">
+            <img src="./images/appStore.svg" alt="">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="primo">
+    <img src="./images/primoTopBanner.svg" alt="">
+  </div>
+
+
+  <div class="sec">
+    <div class="sec1">
+      <img src="./images/primopiechart.svg" alt="">
+      <div class="secdetails1">
+        <p><b>1 of 5 Busess Qulaify</b></p>
+        <br>
+        <p>Primo’s strict safety qualification ensures a safer travel for you</p>
+      </div>
+    </div>
+
+
+    <div class="sec2">
+      <img src="./images/primobarchart.svg" alt="">
+      <div class="secdetails2">
+        <p><b>Preferred by 90%</b></p>
+        <br>
+        <p>90% of travellers re-book Primo buses for its punctuality and comfort</p>
+      </div>
+    </div>
+
+
+    <div class="sec3">
+      <img src="./images/primostarchart.svg" alt="">
+      <div class="secdetails3">
+        <p><b>1 of 5 Busess Qulaify</b></p>
+        <br>
+        <p>Primo’s strict safety qualification ensures a safer travel for you</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="partners">
+    <div class="partnername">
+      <p>PARTNERED WITH</p>
+    </div>
+
+    <div class="government">
+      <p>25 RTC'S</p>
+      <button>view All</button>
+    </div>
+    <div class="APS">
+      <ul>
+        <li>
+          <img src="./images/apsrtc.png" alt="">
+          <p>APSRTC</p>
+        </li>
+
+
+        <li>
+          <img src="./images/GSRTC.svg" alt="">
+          <p>GSRTC</p>
+        </li>
+
+
+        <li>
+          <img src="./images/TSRTC.png" alt="">
+          <p>TSRTC</p>
+        </li>
+
+
+        <li>
+          <img src="./images/RSRTC.svg" alt="">
+          <p>RSRTC</p>
+        </li>
+
+
+        <li>
+          <img src="./images/UPSRTC.svg" alt="">
+          <p>UPSRTC</p>
+        </li>
+
+        <li>
+          <img src="./images/bus-icon.png" alt="">
+          <p>ABC</p>
+        </li>
+
+        <li>
+          <img src="./images/bus-icon.png" alt="">
+          <p>ABC</p>
+        </li>
+
+        <li>
+          <img src="./images/bus-icon.png" alt="">
+          <p>ABC</p>
+        </li>
+
+        <li>
+          <img src="./images/bus-icon.png" alt="">
+          <p>ABC</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div class="privateB">
+    200 Private Bus Operators
+  </div>
+
+  <div class="privateBtn">
+    <button>view Partners</button>
+  </div>
+
+
+
+  <div class="countries">
+
+    <div class="columbia">
+      <img src="./images/Colombia.svg" alt="">
+      <p>columbia</p>
+    </div>
+
+    <div class="india">
+      <img src="./images/India.svg" alt="">
+      <p>India</p>
+    </div>
+
+    <div class="Indonesia">
+      <img src="./images/Indonesia.svg" alt="">
+      <p>Indonesia</p>
+    </div>
+
+    <div class="Mylasia">
+      <img src="./images/Malaysia.svg" alt="">
+      <p>mylasia</p>
+    </div>
+
+    <div class="peru">
+      <img src="./images/Peru.svg" alt="">
+      <p>peru</p>
+    </div>
+
+    <div class="singapore">
+      <img src="./images/Singapore.svg" alt="">
+      <p>singapore</p>
+    </div>
+  </div>
+
+  <DIV class="BOOKBUS">
+    <H1>
+      BOOK BUS TICKETS ONLINE
+    </H1>
+    <p>redBus is India's largest brand for online bus ticket booking and offers an easy-to-use online bus ticket and
+      train ticket booking service, With over 36 million satisfied customers, 3500+ bus operators to choose from, and
+      plenty of offers on bus ticket booking, redBus makes road journeys super convenient for travelers. A leading
+      platform for booking bus tickets, redBus has been the leader in online bus booking over the past 17 years across
+      thousands of cities and lakhs of routes in India.
+
+      Booking a bus ticket online on redBus app or website is very simple. You can download the redBus app or visit
+      redbus.in and enter your source, destination & travel date to check the top-rated bus services available. You can
+      then compare prices, ratings & amenities, select your preferred seat, boarding & dropping points and make the
+      payment using multiple payment options like UPI, debit or credit card, net banking and more. With redBus you can
+      be assured of safe & secure payment methods and guaranteed travel with the best seat and bus operator of your
+      choice. Once the bus booking payment is confirmed, all you have to do is pack your bags and get ready to travel
+      with the m-ticket which you can show to the bus operator on your mobile before boarding the bus. Online bus ticket
+      booking with redBus is that simple!</p>
+  </DIV>
+
+
+  <div class="faq">
+    <div class="faq1">
+      FREQUENTLY ASKED QUESTIONS
+    </div>
+
+    <div class="realted">
+      <ul>
+        <li>
+          <p>Genral</p>
+        </li>
+
+
+        <li>
+          <p>Ticket-Related</p>
+        </li>
+
+
+        <li>
+          <p>Pyment</p>
+        </li>
+
+
+        <li>
+          <p>Cancellation</p>
+        </li>
+
+
+        <li>
+          <p>Refund</p>
+        </li>
+
+
+        <li>
+          <p>Insurance</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="faqQ">
+
+      <div class="ques">
+        <p>What are the advantages of purchasing a bus tivket with Redbus</p>
+        <img src="./images/icons8-plus-50.png" alt="">
+      </div>
+
+      <div class="ques">
+        <p>Do I need to register to use redBus?</p>
+        <img src="./images/icons8-plus-50.png" alt="">
+      </div>
+
+      <div class="ques">
+        <p>Does booking online cost me more?</p>
+        <img src="./images/icons8-plus-50.png" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="transSer">
+      <div>
+        <p><b>Top RTC'S</b></p>
+        <ul>
+          <li>
+            <p>ABCD</p>
+          </li>
+
+
+          <li>
+            <P>PQRS</P>
+          </li>
+
+
+          <li>
+            <P>TUVW</P>
+          </li>
+
+
+          <li>
+            <P>XYZA</P>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <p><b>Top RTC'S</b></p>
+        <ul>
+          <li>
+            <p>ABCD</p>
+          </li>
+
+
+          <li>
+            <P>PQRS</P>
+          </li>
+
+
+          <li>
+            <P>TUVW</P>
+          </li>
+
+
+          <li>
+            <P>XYZA</P>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <p><b>Top RTC'S</b></p>
+        <ul>
+          <li>
+            <p>ABCD</p>
+          </li>
+
+
+          <li>
+            <P>PQRS</P>
+          </li>
+
+
+          <li>
+            <P>TUVW</P>
+          </li>
+
+
+          <li>
+            <P>XYZA</P>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <p><b>Top RTC'S</b></p>
+        <ul>
+          <li>
+            <p>ABCD</p>
+          </li>
+
+
+          <li>
+            <P>PQRS</P>
+          </li>
+
+
+          <li>
+            <P>TUVW</P>
+          </li>
+
+
+          <li>
+            <P>XYZA</P>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+
+    <div class="lastFoot">
+      <div class="compInfo">
+        <p> <img src="./images/rdc-redbus-logo.svg" alt=""></p>
+        <ul>
+          <li>
+            <p>redBus is the world's largest online bus ticket booking service trusted by over 25 million happy
+              customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for
+              all major routes.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="compInfo">
+        <p>
+          <b>About RedBus</b>
+        </p>
+        <ul>
+          <li>
+            <p>ABCD</p>
+          </li>
+
+
+          <li>
+            <P>PQRS</P>
+          </li>
+
+
+          <li>
+            <P>TUVW</P>
+          </li>
+
+
+          <li>
+            <P>XYZA</P>
+          </li>
+        </ul>
+      </div>
+
+      <div class="compInfo">
+        <p><b>Info</b></p>
+        <ul>
+          <li>
+            <p>ABCD</p>
+          </li>
+
+
+          <li>
+            <P>PQRS</P>
+          </li>
+
+
+          <li>
+            <P>TUVW</P>
+          </li>
+
+
+          <li>
+            <P>XYZA</P>
+          </li>
+        </ul>
+      </div>
+
+      <div class="compInfo">
+        <p><b>Global Sites</b></p>
+        <ul>
+          <li>
+            <p>ABCD</p>
+          </li>
+
+
+          <li>
+            <P>PQRS</P>
+          </li>
+
+
+          <li>
+            <P>TUVW</P>
+          </li>
+
+
+          <li>
+            <P>XYZA</P>
+          </li>
+        </ul>
+      </div>
+
+      <div class="compInfo">
+        <p><b>Our Partners</b></p>
+        <ul>
+          <li>
+            <p>ABCD</p>
+          </li>
+
+
+          <li>
+            <P>PQRS</P>
+          </li>
+
+
+          <li>
+            <P>TUVW</P>
+          </li>
+
+
+          <li>
+            <P>XYZA</P>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="socials">
+      <p>All Rigths Reserved</p>
+      <div class="socialicon">
+        <ul>
+          <li>
+            <img src="./images/icons8-instagram-50.png" alt="inst">
+          </li>
+
+          <li>
+            <img class="facebook" src="./images/icons8-facebook-50.png" alt="facebook">
+          </li>
+
+          <li>
+            <img class="twitter" src="./images/icons8-twitter-50.png" alt="twitter">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

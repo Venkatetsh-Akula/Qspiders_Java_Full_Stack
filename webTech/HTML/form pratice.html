@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+       <fieldset>
+        <legend >BioData</legend>
+        <label>Name:</label>
+        <input  type="name" required name="peru" placeholder="name" ><br><br>
+        <label>Email:</label>
+        <input type="email" name="contact" required placeholder="gmail"><br><br>
+        <label>Password:</label>
+        <input type="password" name="private" required minlength="6" maxlength="14" placeholder="passcode" ><br><br>
+        <label>Age:</label>
+        <input type="number" min="18" max="30" name="age"><br><br>
+        <label>DOB:</label>
+        <input type="date" min="2000-01-01" max="2024-12-31" name="dateofbirth" ><br><br>
+        <label>Gender:</label>
+        <input type="radio" name="sex" >Male
+        <input type="radio" name="sex">Female
+        <input type="radio" name="sex" disabled>Other<br><br>
+       </fieldset><br><br>
+        <label>Department</label>
+        <select name="dept">
+            <option>----Select Department-------</option>
+            <option>Computer sience Engineering</option>
+            <option>Electronics and communication Engineering</option>
+            <option>Civl Engineering</option>
+            <option>Electrical Engineering</option>
+            <option>mechnical Engineering</option>
+        </select><br><br>
+        <label >Skils:</label>
+        <input type="checkbox" name="special" checked>C programming
+        <input type="checkbox" name="special" >Python programming
+        <input type="checkbox" name="special" checked>Web Technology
+        <input type="checkbox" name="special">SQL
+        <input type="checkbox" name="special">JAVA <br><br>
+        <label>Time:</label>
+        <input type="time"><br><br>
+        <label>Upload CV:</label>
+        <input type="file" name="document"><br><br>
+        <label>Comment box</label>
+        <textarea rows="5" cols="50" name="comment"></textarea><br><br>
+        <input type="reset" value="Restart">
+        <input type="submit">
+    </form>
+</body>
+</html>

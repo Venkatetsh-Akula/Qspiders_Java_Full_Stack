@@ -1,0 +1,37 @@
+ul{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    /* list-style-image: url(./Images/lambo.jfif); */
+    list-style-image: radial-gradient(red,blue,green);
+}
+table,th,td{
+    border: solid 1px black;
+}
+table{
+    height: 200px;
+    width: 400px;
+}
+td{
+    color: blue;
+    text-align: center;
+    font-weight: bolder;
+}
+th{
+    color: red;
+}
+table{
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+    /*  
+    tr:nth-child() => apply the CSS effect for rows(without space)
+    tr :nth-child() => apply the CSS effect for cols(with space)
+    values : number/even/odd
+    */
+    background-color: yellow;
+}
+
+li:nth-child(odd){
+    background: greenyellow;
+}

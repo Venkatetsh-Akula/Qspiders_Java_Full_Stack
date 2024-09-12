@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 75px;
+    width: 100%;
+    display:flex;
+    border-bottom: solid 1px rgb(105, 105, 105);
+}
+.logopart img{
+    width: 140px;
+    height: 30px;
+    float: right;
+    /* margin-right: 100px; */
+}
+.logopart{
+    width: 50%;
+    margin: auto;
+}
+.loginsignup{
+    width: 40%;
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+    padding: 8px !important;
+    font-family: Okra, Helvetica, sans-serif;
+    margin: auto;
+    justify-content: end;
+    margin-right: 300px;
+}
+.loginsignup p{
+    margin-right: 30px;
+}
+.application{
+    background-color: rgb(255, 251, 247);
+    height: 480px;
+    width: 100%;
+    display: flex;
+}
+.leftcontainer img{
+    height:auto;
+    width: 250px;
+    background-color: rgb(255, 251, 247);
+    margin-right: 20px;
+}
+.leftcontainer{
+    width: 45%;
+    margin: auto;
+    text-align: end;
+}
+.rightcontainer{
+    width: 55%;
+}
+.rightcontainer p{
+    color: rgb(28, 28, 28);
+    font-weight: 500;
+    font-size: 44px;
+    font-family:  Okra, Helvetica, sans-serif;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.rightcontainer a{
+    font-size: inherit;
+    color: rgb(54, 54, 54);
+    font-weight: 300;
+    font-family:  Okra, Helvetica, sans-serif;
+}
+.EP input{
+    padding-top: 0.2rem;
+    cursor: pointer;
+    color: rgb(28, 28, 28);
+    margin: 20px 0px 10px 10px;
+}
+.EP a{
+    font-size: 16px;
+    font-family: Okra, Helvetica, sans-serif ;
+    font-weight: 300;
+}
+.placeholder{
+    font-size: 18px;
+    color: rgb(28, 28, 28);
+    font-family:  Okra, Helvetica, sans-serif;
+}
+.enter input{
+    height: 48px;
+    width: 292px;
+    border-radius: 5px;
+    border: solid 1px ;
+}
+.enter button{
+    height: 55px;
+    width: 150px;
+    background-color: rgb(239, 79, 95);
+    border-color: rgb(239, 79, 95);
+    color: white;
+    border-radius: 5px;
+    padding: 0px 16px;
+    font-size: inherit;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.enter{
+    padding-bottom: 10px;
+}
+.playapp{
+    display: flex;
+}
+.playapp img{
+    height: 40px;
+    width: 137px;
+    margin: 10px;
+}
+.DAF p{
+    margin: 0px 0px 0.5rem;
+    color: rgb(156, 156, 156);
+    font-size: 14px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+/* application end */
+.footer{
+    height: 481px;
+    width: 1076px;
+    margin: auto;
+    background: rgb(248, 248, 248);
+}
+.zomatologo img{
+    height: 28px;
+    width: 132px;
+    margin: 10px;
+}
+.india{
+    height: 38px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 10px;
+}
+.india img{
+    width: 22px;
+    height: 15px;
+    margin-left: 5px;
+}
+.da img{
+    height: 15px;
+    width: 15px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.india p{
+    font-size: 18px;
+    line-height: 20px;
+    color: rgb(28, 28, 28);
+    margin: 0px 5px 0px 2px;
+    font-weight: 400;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.footerhead{
+    display: flex;
+}
+.indiaenglish{
+    display: flex;
+    margin-left: 60%;
+}
+.texter{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutzomato p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 0px 12px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: black;
+}
+.aboutzomato ul{
+    list-style-type: none;
+}
+.aboutzomato li{
+    font-size: 14px;
+    margin: 8px 0px;
+    color: rgb(105, 105, 105);
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.socialimg img{
+    height: 22px;
+    width: 22px;
+    padding: 1px;
+}
+.downimg img{
+    height: 40px;
+    width: 137px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.boxcontent{
+    height: 70px;
+    width: 1076px;
+    border-top: solid 1px rgb(105, 105, 105);
+    margin: auto;  
+    background: rgb(248, 248, 248);
+}
+.boxcontent p{
+    font-size: 13px;
+    color: rgb(79, 79, 79);
+    margin-top: 23px;
+    font-family: Okra, Helvetica, sans-serif;
+}

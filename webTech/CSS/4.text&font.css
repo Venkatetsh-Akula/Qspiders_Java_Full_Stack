@@ -1,0 +1,25 @@
+.font{
+    font-size: 26px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.text{
+    text-align: justify;
+    text-decoration: underline;
+    text-indent: 100px;
+    text-transform:capitalize;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    text-shadow: 10px 10px 8px gray;              /*x-axis y-axis blur color */
+}

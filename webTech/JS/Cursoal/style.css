@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 50px;
+    height: 70px;
+    background: linear-gradient(green,orange);
+    text-align: center;
+    padding: 10px;
+}
+.sliderbox{
+    display: flex;
+    margin: 10px 10px;
+}
+.sliderbox img{
+    height: 80px;
+    width: 80px;
+    margin: 60px 10px;
+}
+.BB{
+    border: solid 1px black;
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+   
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+}
+.arrow img{
+    margin: 10px 20px;
+    height: 50px;
+    width: 50px;
+    /* display: block;
+    margin: auto; */
+}

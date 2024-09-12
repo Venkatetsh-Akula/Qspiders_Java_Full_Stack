@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    background:linear-gradient(pink,lightblue);
+}
+input{
+    height: 50px;
+    width: 15%;
+    display: block;
+    margin: 10px auto;
+    outline: none;
+}
+/* input:hover{
+
+} */
+button{
+    height: 20px;
+    width: 10%;
+    display: block;
+    margin: 10px auto;
+}
+

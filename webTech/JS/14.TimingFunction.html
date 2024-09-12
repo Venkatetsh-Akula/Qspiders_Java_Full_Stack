@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Timing Function</h1>
+    <h2>Set Time Out & clear Time Out Method</h2>
+    <button onclick="x=setTimeout(fun,3000)">Start</button>  <!--In this the fun is called inside of setTimeout() method-->
+    <button onclick="clearTimeout(x)">Stop</button>
+
+
+    <h2>Set Interval & clear Interval Out Method</h2>
+    <button onclick="y=setInterval(demo,1000)">Start</button>
+    <button onclick="clearInterval(y)">Stop</button>
+
+
+    <h1>Example Problem</h1>
+    <button onclick="y=setInterval(add,1000)">Start</button>
+    <button onclick="clearInterval(y)">Stop</button>
+
+    <h3>Example problem with reset</h3>
+    <button onclick="y=setInterval(add,1000)">Start</button>
+    <button onclick="clearInterval(y)">Stop</button>
+    <button onclick="reseat()"> reset</button>
+
+    
+    <script src="./14.TimingFunction.js"></script>
+</body>
+</html>

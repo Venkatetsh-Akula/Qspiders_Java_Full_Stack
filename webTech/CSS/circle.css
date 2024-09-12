@@ -1,0 +1,26 @@
+.container1{
+    border: solid 0px black;
+    display: flex;
+
+}
+.circle1{
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+    border-right: none;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.circle2{
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-left: none;
+}
+.triangle1{
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+}

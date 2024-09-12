@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    font-size: 50px;
+    background: linear-gradient(violet,black);
+    padding: 10px;
+}
+table{
+    height: 500px;
+    width: 400px;
+    margin:20px auto;
+
+}
+input{
+    width: 95%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+/* input: */

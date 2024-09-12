@@ -1,0 +1,82 @@
+.box{
+    border: solid 2px black;
+    height: 150px;
+    width: 150px;
+    background: red;
+
+    animation-name: changeDesign;
+    animation-duration: 10s;
+}
+.box2{
+    border: solid 2px black;
+    height: 200px;
+    width: 200px;
+    background: red;
+    animation-name: goa;
+    animation-duration: 10s;
+    margin-top: 20px;
+}
+.box3{
+    border: solid 2px black;
+    height: 200px;
+    width: 200px;
+    background: red;
+    animation-name: cycle;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    margin-top: 10px;
+}
+/* .child1{
+    height: 100px;
+    width: 200px;
+} */
+@keyframes changeDesign{
+    from{
+        background: yellow;
+        width: 150px;
+    }
+    to{
+        background: blue;
+        width: 300px;
+    }
+}
+@keyframes goa{
+    0%{
+        height: 150px;
+        width: 150px;
+    }
+    50%{
+        border-radius: 50%;
+        background-color: yellow;
+    }
+    100%{
+        height: 150px;
+        width: 150px;
+        background-color: green;
+    }
+}
+
+@keyframes cycle{
+    0%{
+        width: 200px;
+        border-radius: 0%;
+    }
+    25%{
+        border-radius: 0%;
+        width: 400px;
+        background-color: blue;
+    }
+    50%{
+        width: 400px;
+        border-radius: 50%;
+    }
+    75%{
+        width: 200px;
+        border-radius: 50%;
+        background: orangered;
+    }
+    100%{
+        border-radius: 0%;
+        width: 200px;
+    }
+}

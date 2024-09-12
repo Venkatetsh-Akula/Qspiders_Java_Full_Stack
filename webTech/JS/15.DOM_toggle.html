@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .on{
+            color: green;
+            border: solid 1px;
+        }
+        .off{
+            color: red;
+            border: solid 1px;
+        }
+        .bulb{
+            border: solid 1px black;
+            height: 100px;
+            width: 10%;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- <button onclick="onOff()" class="on">ON</button> -->
+
+    <h1>Create a tag & appending child </h1>
+
+    <h1>Example program</h1>
+    <form onsubmit="requriment(event)">
+        <input type="text">
+        <input type="text">
+        <input type="submit">
+    </form>
+
+    <h1>Dark mode Night mode Example</h1>
+    <button onclick="DayNight()" class="on">Dark</button>
+
+    <h1>Bulb model example</h1>
+    <div class="bulb"></div>
+    <button class="onandoff" onclick="onAndOff()">Click Here to ON and OFF</button>
+    <button class="onlyOn" onclick="OnlyOn()">Click here to only on</button>
+    <button class="onlyOff" onclick="OnlyOff()">Click Here to only Off</button>
+    <button class="FWT" onclick="Bytoggle()">ON</button>
+    <script src="./15.DOM_toggle.js"></script>
+</body>
+</html>

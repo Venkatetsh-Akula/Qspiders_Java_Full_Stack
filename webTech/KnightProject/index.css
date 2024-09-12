@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.BG{
+    background-image: url(./Images/burgerimg.jpg);
+    height: 735px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 40px 70px;
+}
+.logo img{
+    height: 40px;
+    width: 30px;
+}
+.logo p{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: white;
+    margin-left: 10px;
+}
+.HAMF{
+    width: 50%;
+    margin: auto;
+}
+.footer{
+    display: flex;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+}
+.HAMF ul{
+    list-style: none;
+    display: flex;
+    margin-left: 150px;
+}
+.HAMF li{
+    color: white;
+    font-weight: 300;
+    font-family: Okra, Helvetica, sans-serif;
+    margin: 0px 20px;
+}
+/* footer ends */
+.deliciousness{
+    font-weight: bolder;
+    font-size: 70px;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+/* deliciousness end*/
+.OOW{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 50px;
+}
+.OOW button{
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: darkmagenta;
+    text-align: center;
+}
+.or p{
+    color: white;
+    font-weight: 300;
+    font-family: Okra, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px 0px;
+}
+.PSAP{
+    margin-left: 33%;
+}
+.PSAP img{
+    height: 80px;
+    width: 200px;
+    padding: 30px;
+}
+.chatbox{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.chatbox img{
+    height: 70px;
+    width: 50px;
+}

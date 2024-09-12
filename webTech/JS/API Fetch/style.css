@@ -1,0 +1,26 @@
+#root{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#root img{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 0.5px black;
+    transition: all 0.8s;  
+}
+#root img:hover{
+    transform: scale(1.1);   /* it will in popup of the image that we given */
+}
+.picbox{
+    border: solid 2px black;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+}
+.texter{
+    margin: 3px;
+}

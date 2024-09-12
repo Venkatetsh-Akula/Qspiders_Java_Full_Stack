@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Fill the form</h2>
+    <!-- <form>
+        <label>first name <sup>*</sup>:</label>
+        <input type="text" name="fnm" placeholder="First name" required
+        ><br>
+        <label>Last name:</label>
+        <input type="text" name="lnm" placeholder="Last name"><br>
+        <label>Email</label>
+        <input type="mail" name="email" placeholder="Enter your mail"><br>
+        <label>Password</label>
+        <input type="password" name="code" placeholder="enter passcode"><br>
+        <label>Age:</label>
+        <input type="number" name="age" min="0" max="99"><br>
+        <input type="submit" value="Register">
+    </form> -->
+
+    <form method="get" action="./Images/Audi.webp">  <!--method=post-->
+        <fieldset>
+            <legend align="center">Login Details</legend>
+            <label >Name:</lable><sup>*</sup>
+                <input type="text" required><br>
+                <label>Email</label><sup>*</sup>
+                <input type="email" required><br>
+                <label>Password</label><sup>*</sup>
+                <input type="password" minlength="8" maxlength="16" required><br>
+                <label>Enter age</label>
+                <input type="number" min="18" max="70"><br>
+        </fieldset>
+        <label>Gender</label>
+        <input type="radio" name="x">Male<br>
+        <input type="radio" name="x">Female<br>
+        <input type="radio" name="x">Other<br>
+        <label>Date Of Birth</label>
+        <input type="date" min="2001-01-01" max="2005-12-31" required><br>
+        <label>Location</label>
+        <select>
+            <option>---Select option----</option>
+            <option>Andhra Pradesh</option>
+            <option>Karnataka</option>
+            <option>TamilNadu</option>
+            <option disabled>Kerela</option>
+            <option>Telngana</option>
+        </select><br>
+        <label>Comment Box</label>
+        <textarea rows="5" cols="50" name="cmnt" placeholder="comment here"></textarea><br><br>
+        <label>Time</label>
+        <input type="time" name="time"><br><br>
+        <input type="file" name="data"><br><br>
+        <input type="range" name="rng"><br><br>
+        <input type="reset" value="register">
+        <input type="submit">
+    </form>
+</body>
+</html>

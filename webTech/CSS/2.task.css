@@ -1,0 +1,17 @@
+.container{
+    border: solid 0px black;
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(orange,white,green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    border: solid 1px black;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: conic-gradient(blue,blue,white,blue,white);
+}
+

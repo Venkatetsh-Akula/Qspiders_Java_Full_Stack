@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.header{
+    font-size: 50px;
+    text-align: center;
+    background:linear-gradient(crimson,white);
+    padding:10px 0px;
+}
+.container{
+    border: solid 1px black;
+    font-size: 50px;
+    height: auto;
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* OTP Generator */
+.OTP{
+    height: 40px;
+    width: 20%;
+    display: block;
+    margin: auto;
+}

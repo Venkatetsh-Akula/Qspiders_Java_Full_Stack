@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="en">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>RUF Work on Box Object Model</title>
+    </head>
+    <body>
+        <h1>Button On Click Event</h1>
+        <button onclick="fun()"> 1.Click Here For Click Event</button>
+        <h1>On Double click Event</h1>
+        <button ondblclick="double()">2.Click Here For Double Click Event</button>
+        <h1>Key Board Events</h1>
+        <form>
+            <label>Enter the First Name</label> <input type="text" onkeydown="down()" height="40px" width="100px">
+            <label>Enter the Second Name</label><input type="text" onkeypress="press()" height="50px" width="200px">
+            <label>Tell Me about your self</label><input type="text" onkeyup="up()">
+        </form>
+        <img src="./images/feature.png" alt="" height="200px" width="400px" onmouseover="over()">
+        <form onsubmit="sub()">
+            <input type="text"><br>
+            <input type="text"><br>
+            <input type="submit">
+        </form>
+        <h1>onsubmit With Event object</h1>
+        <!-- Event Object-->
+        <form onsubmit="eventsub(event)">
+            <input type="text"><br>
+            <input type="text"><br>
+            <input type="submit">
+        </form>
+        <script src="./RUF.js"></script>
+    </body>
+</html>

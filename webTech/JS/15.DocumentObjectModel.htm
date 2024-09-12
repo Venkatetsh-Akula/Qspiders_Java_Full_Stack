@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./15.DocumentObjectModel.css">
+</head>
+<body id="BD">
+    <h1>Document Object Model</h1>
+    <h2>ID selector</h2>
+    <button onclick="greeting()" ondblclick="greeting2()">Click Here</button>
+    <h2 id="wish">Hi Good Morning to all</h2>
+
+    <h2>Class Selector</h2>
+    <button onclick="colors()">Click Here</button>
+    <div class="msg">Good Morning</div>
+    <div class="msg">Good Afternoon</div>
+    <div class="msg">Good Nigth</div>
+
+    <h2>Example on boxes</h2>
+    <button onclick="boxmodel()">Click Here</button>
+    <div class="container">
+       <div class="box">Hello</div>
+       <div class="box"></div>
+       <div class="box"></div>
+    </div>
+
+    <h2>Example With Image</h2>
+    <button onclick="changeImage()">Click Here</button> <br>
+    <img src="./images/Royal-Enfield-Himalayan.jpg" alt="">
+
+    <h2>ON-OFF button Example</h2>
+    <button onclick="onOff()" id="btn">ON</button>
+    
+    <h2>Example On Dark mode and Light Mode</h2>
+    <button onclick="DN()" id="">Dark Mode</button>
+
+    <h2>Example change color using Prompt</h2>
+    <button onclick="RGB()">Click Here</button>
+
+    <h1>Example On forms</h1>
+    <form onsubmit="printDetails(event)">
+        <input type="text" name="fnm" placeholder="Enter First Name">
+        <input type="text" name="lnm" placeholder="Enter Last Name">
+        <input type="text" name="dob" placeholder="Enter the Date of Birth">
+        <button>Submit</button>
+    </form>
+    <h1 id="res"></h1>
+    <h1 id="age"></h1>
+    <script src="./15.DocumentObjectModel.js"></script> <br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

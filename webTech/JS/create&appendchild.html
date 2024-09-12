@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./DOM_toggle.css">
+    <style>
+        button{
+        margin:auto;
+        border:1px solid;
+        height:40px;
+        width:30%;
+        font-weight: bolder;
+    }
+    .on{
+        background: green;
+        color:white;
+    }
+    .on:hover{
+        background: green;
+        color:white;
+    }
+    .off:hover{
+        background: red;
+        color:white;
+    }
+    .off{
+        background: red;
+        color:white;
+    }
+    </style>
+</head>
+<body>
+  <button onclick="onOff()" class="on">ON</button>  
+
+  <h2>Create Element & Append Child</h2>
+
+  <form onsubmit="newElem1(event)">
+    <input type="text" placeholder="Enter username">
+    <input type="text"  placeholder="Enter data">
+   <input type="submit" value="Add data">
+  </form> 
+
+  <script src="./create&appendchild.js"></script>  
+</body>
+</html>
