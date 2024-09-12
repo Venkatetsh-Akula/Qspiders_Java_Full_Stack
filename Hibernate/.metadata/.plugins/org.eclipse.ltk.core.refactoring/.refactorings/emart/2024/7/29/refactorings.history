@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.jsp.emart.controller.SaveUser&apos; to &apos;SaveUserController&apos;&#x0D;&#x0A;- Original project: &apos;emart&apos;&#x0D;&#x0A;- Original element: &apos;org.jsp.emart.controller.SaveUser&apos;&#x0D;&#x0A;- Renamed element: &apos;org.jsp.emart.controller.SaveUserController&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SaveUser&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.jsp.emart.controller{SaveUser.java[SaveUser" matchStrategy="1" name="SaveUserController" qualified="false" references="true" similarDeclarations="false" stamp="1721218425343" textual="false" version="1.0"/>
+</session>

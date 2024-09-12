@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.jsp.manytoone.controller.Udate&apos; to &apos;UpdateData&apos;&#x0D;&#x0A;- Original project: &apos;manytoone&apos;&#x0D;&#x0A;- Original element: &apos;org.jsp.manytoone.controller.Udate&apos;&#x0D;&#x0A;- Renamed element: &apos;org.jsp.manytoone.controller.UpdateData&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Udate&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.jsp.manytoone.controller{Udate.java[Udate" matchStrategy="1" name="UpdateData" qualified="false" references="true" similarDeclarations="false" stamp="1720438120490" textual="false" version="1.0"/>
+</session>
