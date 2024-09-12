@@ -1,0 +1,33 @@
+package org.jsp.app;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+
+
+@Configuration
+@ComponentScan
+public class PraticeProjectApplication {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+@Component
+class Sample{
+	public void method() {
+		System.out.println("I am in sample class");
+	}
+}
+
+@Component
+class Demo{
+	public void method() {
+		System.out.println("I am in Demo class");
+	}
+}

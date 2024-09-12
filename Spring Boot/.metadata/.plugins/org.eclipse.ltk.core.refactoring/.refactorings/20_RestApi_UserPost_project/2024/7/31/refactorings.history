@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.jsp.app.controller.UserController&apos; to &apos;UserControllerClass&apos;&#x0D;&#x0A;- Original project: &apos;20_RestApi_UserPost_project&apos;&#x0D;&#x0A;- Original element: &apos;org.jsp.app.controller.UserController&apos;&#x0D;&#x0A;- Renamed element: &apos;org.jsp.app.controller.UserControllerClass&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;UserController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.jsp.app.controller{UserController.java[UserController" matchStrategy="1" name="UserControllerClass" qualified="false" references="true" similarDeclarations="false" stamp="1722321380338" textual="false" version="1.0"/>
+</session>

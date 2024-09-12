@@ -1,0 +1,43 @@
+package org.jsp.app;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+record Person(String name,int age) {};
+record Address(String city,String state) {};
+@Configuration
+public class GameRunningClass {
+	@Bean
+	public String home() {
+		return "my home";
+	}
+	@Bean
+	public String name() {
+		return "venky";
+	}
+	@Bean
+	public int age() {
+		return 23;
+	}
+	@Bean
+	public String loc() {
+		return "pamuru";
+	}
+	@Bean
+	public Person person() {
+		return new Person("venky",23);
+	}
+	@Bean
+	public Person person3() {
+		return new Person("venky",23);
+	}
+	@Bean
+	public Address address() {
+		return new Address("pamuru","andhra");
+	}
+	@Bean
+	@Primary
+	public Address address2() {
+		return new Address(name(),loc());
+	}
+}

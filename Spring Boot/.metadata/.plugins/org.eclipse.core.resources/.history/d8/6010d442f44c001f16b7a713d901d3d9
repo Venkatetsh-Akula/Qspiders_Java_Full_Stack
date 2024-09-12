@@ -1,0 +1,29 @@
+package org.jsp.app.todoapp;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class TodoController {
+	
+	@Autowired
+	private TodoState todo;
+	
+	@RequestMapping(value="/")
+	public String welcomeMethod() {
+		return "welcomeweb";
+	}
+	@RequestMapping(value="/todorequest")
+	public String todoMethod(ModelMap model) {
+		model.put("todolist", todo.getTodoli());
+		return "todoweb";
+	}
+	@RequestMapping(value="/addtodorequest")
+	public String addTodoMethod() {
+		
+	}
+}

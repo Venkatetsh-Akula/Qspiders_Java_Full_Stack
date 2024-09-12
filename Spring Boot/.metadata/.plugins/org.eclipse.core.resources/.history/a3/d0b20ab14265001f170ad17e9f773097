@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div modelAttribute="u">
+		<form method="get">
+		<fieldset>
+			<label>Enter the name:<input path="name" type="text" name="name" ></label>
+		</fieldset>
+		<fieldset>
+			<label>Enter the name:<input path="email" type="email" name="email"></label>
+		</fieldset>
+		<fieldset>
+			<label>Enter the name:<input path="password" type="password" name="password"></label>
+		</fieldset>
+		<fieldset>
+			<label>Enter the name:<input path="date" type="date" name="date"></label>
+		</fieldset>
+		<fieldset>
+			<button type="submit">Submit</button>
+		</fieldset>
+	</form>
+	</div>
+</body>
+</html>

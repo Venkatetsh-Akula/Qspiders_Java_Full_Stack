@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;org.jsp.__Spring_Boot_first&apos; to &apos;org.jsp.springboot&apos;&#x0D;&#x0A;- Original project: &apos;8_Spring_Boot_first&apos;&#x0D;&#x0A;- Original element: &apos;8_Spring_Boot_first/src/main/java/org.jsp.__Spring_Boot_first&apos;&#x0D;&#x0A;- Renamed element: &apos;8_Spring_Boot_first/src/main/java/org.jsp.springboot&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;org.jsp.__Spring_Boot_first&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.jsp.__Spring_Boot_first" name="org.jsp.springboot" qualified="false" references="true" stamp="1721373090091" textual="false" version="1.0"/>
+</session>

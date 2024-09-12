@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;org.jsp.app.version&apos; to &apos;27_RestApi_Hibernate/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;22_RestApi_versioning&apos;&#x0D;&#x0A;- Destination element: &apos;27_RestApi_Hibernate/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;22_RestApi_versioning/src/main/java/org.jsp.app.version&apos;" description="Copy package" destination="=27_RestApi_Hibernate/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.jsp.app.version" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1722951539133" version="1.0"/>
+</session>

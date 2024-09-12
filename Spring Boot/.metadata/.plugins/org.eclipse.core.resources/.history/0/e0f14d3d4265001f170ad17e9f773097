@@ -1,0 +1,48 @@
+package org.jsp.app.controller;
+
+import org.jsp.app.entity.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+
+@Controller
+@SessionAttributes("name")
+public class PraticeController {
+	
+	@Autowired
+	private User user;
+	
+	
+	@RequestMapping(value="/login",method=RequestMethod.GET)
+	public String loginGetMethod() {
+		return "loginweb";
+	}
+	@RequestMapping(value="/login",method=RequestMethod.POST)
+	public String loginPostMethod(@RequestParam String name,@RequestParam String password) {
+		System.out.println(name);
+		System.out.println(password);
+		return "redirect:login";
+	}
+	@RequestMapping(value="/createuser",method=RequestMethod.GET)
+	public String signupGetMethod(ModelMap model) {
+		model.put("u", user);
+		return "signupweb";
+	}
+	@RequestMapping(value="/createuser",method=RequestMethod.POST)
+	public String signupPosttMethod(ModelMap model,User user) {
+		System.out.println(user.getId());
+		System.out.println(user.getName());
+		System.out.println(user.getEmail());
+		System.out.println(user.getPassword());
+		System.out.println(user.getDate());
+		return "redirect:login";
+	}
+	
+}

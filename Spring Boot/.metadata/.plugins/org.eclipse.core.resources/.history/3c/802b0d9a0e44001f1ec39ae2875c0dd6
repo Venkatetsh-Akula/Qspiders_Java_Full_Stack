@@ -1,0 +1,5 @@
+package org.jsp.app;
+
+public class MongoDbDataService {
+
+}

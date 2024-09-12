@@ -1,0 +1,19 @@
+package org.jsp.app;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+@SpringBootApplication
+public class TimepassprojectApplication {
+
+	public static void main(String[] args) {
+		//SpringApplication.run(TimepassprojectApplication.class, args);
+		AnnotationConfigApplicationContext context=new AnnotationConfigApplicationContext(GameRunningClass.class);
+		System.out.println(context.getBean("home"));
+		System.out.println(context.getBean("person"));
+		System.out.println(context.getBean(Address.class));
+		System.out.println(context.getBeanDefinitionCount());
+	}
+
+}

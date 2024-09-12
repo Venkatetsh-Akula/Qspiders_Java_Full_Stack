@@ -1,0 +1,6 @@
+package org.jsp.app.controller;
+
+@Controller
+public class Controller {
+
+}

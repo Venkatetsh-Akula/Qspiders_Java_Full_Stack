@@ -1,0 +1,12 @@
+package org.jsp.app;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class GameRunningClass {
+	@Bean
+	public String home() {
+		return "my home";
+	}
+}

@@ -1,0 +1,8 @@
+package org.jsp.app;
+
+public class MongoDbDataService implements DataService {
+	@Override
+	public int[] retriveData() {
+		
+	}
+}
