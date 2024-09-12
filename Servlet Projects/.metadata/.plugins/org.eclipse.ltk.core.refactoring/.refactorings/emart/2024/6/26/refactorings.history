@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.jsp.emart.controller.UpdateServletClass&apos; to &apos;UpdatePageServletClass&apos;&#x0D;&#x0A;- Original project: &apos;emart&apos;&#x0D;&#x0A;- Original element: &apos;org.jsp.emart.controller.UpdateServletClass&apos;&#x0D;&#x0A;- Renamed element: &apos;org.jsp.emart.controller.UpdatePageServletClass&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;UpdateServletClass&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.jsp.emart.controller{UpdateServletClass.java[UpdateServletClass" matchStrategy="1" name="UpdatePageServletClass" qualified="false" references="true" similarDeclarations="false" stamp="1719230592761" textual="false" version="1.0"/>
+</session>
