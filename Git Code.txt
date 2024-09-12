@@ -1,0 +1,170 @@
+------>Git Base System Configuration
+
+      Run this code in Command Prompt
+	
+	1.)git config --global user.email "Enter here email Id"
+		
+		Ex:-git config --global user.email "venakteshakula159@gmail.com"
+
+	2.)git config --global user.name "enter git hub user name"
+
+		Ex:-git config --user.name "Venkatesh-Akula"
+
+------>Git pushing Data To Remote Repository
+
+	1.)git status
+		
+		Ex:- git status
+
+		Explanation:-checking my current git is tracking my file to remote repository or not
+
+	2.)git init
+	
+		Ex:-git init
+
+		Explanation:-creating a local repository in laptop or computer folder
+
+	3.)git add folder_name (or) file_name.format
+
+		Ex:- git add springboot (or) git add sample.txt
+
+		Explanation:-add my file or folders to current laptop to local Repository
+
+	4.)git commit -m "Enter the message what ever you want:"
+
+		Ex:- git commit -m "spring boot file uploaded"
+
+		Explanation:-completing my file upload to local repository with an message
+
+	5.)git remote -v
+
+		Ex:- git remote -v
+
+		Explanation:-checking my folder having in which remote repository
+
+	6.)git remote add origin "git hub repository link"
+
+		Ex:-git remote add origin "https://github.com/Venkatetsh-Akula/Qspiders_Java-Full-Stack-Course.git"
+
+		Explanation:- providing connection between local repository to remote repository:"
+
+	7.)git push origin main
+
+		Ex:- git push origin main
+
+		Explanation:-uploading my file or folder to remote repository (Push completed)
+
+	8.)git branch
+		
+		Ex:-git branch
+
+		Explanation:-checking how branch's are present in current repository              ++++>(branch is used for user convenet)
+
+	9.)git branch branch_name
+
+		Ex:-git branch spring
+
+		Explanation:- it is used to create another branch in my remote repository
+
+	10.)git checkout branch_name
+
+		Ex:-git checkout spring
+
+		Explanation:- changing my main branch to spring branch in my remote repository
+
+
+Note:-
+
+	The code is use only pushing data to local repository to remote repository
+
+	seniro:-If deveoper-1 is building project and push to git hub
+
+
+
+------>Git pull Data To Local Repository
+
+	1.)git remote add origin "git hub repository link"
+
+		Ex:-git remote add origin "https://github.com/Venkatetsh-Akula/Qspiders_Java-Full-Stack-Course.git"
+
+		Explanation:- providing connection between local repository to remote repository:"
+
+
+	2.)git pull origin main 
+
+		Ex:- git pull origin main
+
+		Explanation:- pulling or getting data from remote repository to local repository
+
+	
+	(From here if we make any changes to files push file to remote repository)
+
+	3.)git add folder_name (or) file_name.format
+
+		Ex:- git add springboot (or) git add sample.txt
+
+		Explanation:-add my file or folders to current laptop to local Repository
+
+	4.)git commit -m "Enter the message what ever you want:"
+
+		Ex:- git commit -m "spring boot file uploaded"
+
+		Explanation:-completing my file upload to local repository with an message
+
+	5.)git remote -v
+
+		Ex:- git remote -v
+
+		Explanation:-checking my folder having in which remote repository
+
+	6.)git branch
+		
+		Ex:-git branch
+
+		Explanation:-checking how branch's are present in current repository              ++++>(branch is used for user convenet)
+
+	7.)git branch branch_name
+
+		Ex:-git branch spring
+
+		Explanation:- it is used to create another branch in my remote repository
+
+
+	8.)git checkout branch_name
+
+		Ex:-git checkout main
+
+		Explanation:- changing my main branch to spring branch in my remote repository
+
+
+	9.)git push origin main
+
+		Ex:- git push origin main
+
+		Explanation:-uploading my file or folder to remote repository (Push completed)
+
+Note:-
+The all code of is responseable for getting data from the remote repository 
+And if have any changes and pushing data to git hub
+
+
+---------->Few Important commands
+
+	1.)git clone url
+
+		Ex:- git clone https://github.com/Venkatetsh-Akula/Qspiders_Java-Full-Stack-Course.git
+
+		Explanation:- it gives you all remote repository to local repository
+
+	2.)git fetch origin
+
+		Ex:- git fetch origin
+
+		Explanation:-it is use get only all information from remote reopository to local repository like no.of files, no.of brnach ,no,of pull request etc
+
+	
+
+		
+
+
+		
