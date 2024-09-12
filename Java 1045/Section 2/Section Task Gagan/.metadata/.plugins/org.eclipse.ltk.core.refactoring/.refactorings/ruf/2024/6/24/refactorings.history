@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.ruf&apos; to &apos;com.rufpackage&apos;&#x0D;&#x0A;- Original project: &apos;ruf&apos;&#x0D;&#x0A;- Original element: &apos;ruf/src/com.ruf&apos;&#x0D;&#x0A;- Renamed element: &apos;ruf/src/com.rufpackage&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.ruf&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.ruf" name="com.rufpackage" qualified="false" references="true" stamp="1718427485541" textual="false" version="1.0"/>
+</session>

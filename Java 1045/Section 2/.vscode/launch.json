@@ -1,0 +1,492 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        public class ruf{
+            public static void main(String[] args){
+                int[] arr={4,1,1,1,2,3,5};
+                int i=0,j=0,sum=0,ans=100,target=2;
+                while(j<arr.length){
+                    if(sum<target){
+                        sum+=arr[j]; //(4,1) ()
+                        j++;
+                    }
+                    else if(sum==target){
+                        ans=Math.min(ans,j-i);  //1 
+                        sum-=arr[i];  //1
+                        i++;
+                    }
+                    else if(sum>target){
+                        sum-=arr[i];
+                        i++;
+                    }
+                }
+                System.out.println(ans);
+            }
+        }
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AbstractCasesOfClassSub",
+            "request": "launch",
+            "mainClass": "AbstractCasesOfClassSub",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "AcceptObjectReference",
+            "request": "launch",
+            "mainClass": "AcceptObjectReference",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "AmazonDriver",
+            "request": "launch",
+            "mainClass": "AmazonDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "AmazonSpecializedGenerilizedDriver",
+            "request": "launch",
+            "mainClass": "AmazonSpecializedGenerilizedDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "AssignmentBook",
+            "request": "launch",
+            "mainClass": "AssignmentBook",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "AssingmentSuperSubDriver",
+            "request": "launch",
+            "mainClass": "AssingmentSuperSubDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "B",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "CarDiver",
+            "request": "launch",
+            "mainClass": "CarDiver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "CarDriver",
+            "request": "launch",
+            "mainClass": "CarDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ClassCastExceptionDriver",
+            "request": "launch",
+            "mainClass": "ClassCastExceptionDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "CompanyDriver",
+            "request": "launch",
+            "mainClass": "CompanyDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ComplieTimePolymorphism",
+            "request": "launch",
+            "mainClass": "ComplieTimePolymorphism",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ConcreteAbstractSubClassA",
+            "request": "launch",
+            "mainClass": "ConcreteAbstractSubClassA",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ConstructorChaining",
+            "request": "launch",
+            "mainClass": "ConstructorChaining",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ConstructorChainingExample",
+            "request": "launch",
+            "mainClass": "ConstructorChainingExample",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ConstructorOverloading",
+            "request": "launch",
+            "mainClass": "ConstructorOverloading",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "DoctorDriver",
+            "request": "launch",
+            "mainClass": "DoctorDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "DownCastingSubClass",
+            "request": "launch",
+            "mainClass": "DownCastingSubClass",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "Employee",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "EmpolyeeStaticVariable",
+            "request": "launch",
+            "mainClass": "EmpolyeeStaticVariable",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ExtendsFollowedByImplementsSubClass",
+            "request": "launch",
+            "mainClass": "ExtendsFollowedByImplementsSubClass",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "FaceBookDriver",
+            "request": "launch",
+            "mainClass": "FaceBookDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "GoldenJavaRuleClassSub",
+            "request": "launch",
+            "mainClass": "GoldenJavaRuleClassSub",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "InstanceofOperationDiver",
+            "request": "launch",
+            "mainClass": "InstanceofOperationDiver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "InstituteDriver",
+            "request": "launch",
+            "mainClass": "InstituteDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceExtendsInterfaceSub",
+            "request": "launch",
+            "mainClass": "InterfaceExtendsInterfaceSub",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "LocalAndGlobalVariable",
+            "request": "launch",
+            "mainClass": "LocalAndGlobalVariable",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverloading",
+            "request": "launch",
+            "mainClass": "MethodOverloading",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverloadingExample",
+            "request": "launch",
+            "mainClass": "MethodOverloadingExample",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverridingChildExample1",
+            "request": "launch",
+            "mainClass": "MethodOverridingChildExample1",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverridingChildExample2",
+            "request": "launch",
+            "mainClass": "MethodOverridingChildExample2",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "MultiObjectSingleFormalArgsDriver",
+            "request": "launch",
+            "mainClass": "MultiObjectSingleFormalArgsDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "MultipleimplementsClassSub",
+            "request": "launch",
+            "mainClass": "MultipleimplementsClassSub",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "NonStaticMethod",
+            "request": "launch",
+            "mainClass": "NonStaticMethod",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "NonstaticBlock",
+            "request": "launch",
+            "mainClass": "NonstaticBlock",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ObjectOverLoadingDriver",
+            "request": "launch",
+            "mainClass": "ObjectOverLoadingDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "OverrideA",
+            "request": "launch",
+            "mainClass": "OverrideA",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "OverrideB",
+            "request": "launch",
+            "mainClass": "OverrideB",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ParameterizedConstructor",
+            "request": "launch",
+            "mainClass": "ParameterizedConstructor",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ReferenceVariable",
+            "request": "launch",
+            "mainClass": "ReferenceVariable",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ReturnObjectReferenceBook",
+            "request": "launch",
+            "mainClass": "ReturnObjectReferenceBook",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "RunTimePolymorphismSub",
+            "request": "launch",
+            "mainClass": "RunTimePolymorphismSub",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "SingleLevelInheritanceDoctor",
+            "request": "launch",
+            "mainClass": "SingleLevelInheritanceDoctor",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "SingleLevelInheritanceDriver",
+            "request": "launch",
+            "mainClass": "SingleLevelInheritanceDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "StaticBlock",
+            "request": "launch",
+            "mainClass": "StaticBlock",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "StaticMethod",
+            "request": "launch",
+            "mainClass": "StaticMethod",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "StudentNonstaticVarible",
+            "request": "launch",
+            "mainClass": "StudentNonstaticVarible",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "SubSuperDriver",
+            "request": "launch",
+            "mainClass": "SubSuperDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "SuperKeywordExampleChild",
+            "request": "launch",
+            "mainClass": "SuperKeywordExampleChild",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ThisKeyword",
+            "request": "launch",
+            "mainClass": "ThisKeyword",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "UpCastingClassAChild",
+            "request": "launch",
+            "mainClass": "UpCastingClassAChild",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "WhatsappDriver",
+            "request": "launch",
+            "mainClass": "WhatsappDriver",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "childSuper",
+            "request": "launch",
+            "mainClass": "childSuper",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "classCastException2ClassB",
+            "request": "launch",
+            "mainClass": "classCastException2ClassB",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "defaultConstructor",
+            "request": "launch",
+            "mainClass": "defaultConstructor",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "employeeParameterizedConstructor",
+            "request": "launch",
+            "mainClass": "employeeParameterizedConstructor",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "interfaceImplementsChild1",
+            "request": "launch",
+            "mainClass": "interfaceImplementsChild1",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "nonParameterizedConstructor",
+            "request": "launch",
+            "mainClass": "nonParameterizedConstructor",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "nonStaticVariable",
+            "request": "launch",
+            "mainClass": "nonStaticVariable",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "parameterizeChildSuper",
+            "request": "launch",
+            "mainClass": "parameterizeChildSuper",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "ruf",
+            "request": "launch",
+            "mainClass": "ruf",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "rufClassA",
+            "request": "launch",
+            "mainClass": "rufClassA",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "staticVariable",
+            "request": "launch",
+            "mainClass": "staticVariable",
+            "projectName": "Section 2_2701c89f"
+        },
+        {
+            "type": "java",
+            "name": "studentNonStaticVariable",
+            "request": "launch",
+            "mainClass": "studentNonStaticVariable",
+            "projectName": "Section 2_2701c89f"
+        }
+    ]
+}

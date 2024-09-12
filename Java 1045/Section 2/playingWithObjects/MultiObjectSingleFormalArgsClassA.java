@@ -1,0 +1,5 @@
+public class MultiObjectSingleFormalArgsClassA extends MultiObjectSingleFormalArgsClassSample {
+    public void check(){
+        System.out.println("i am in check() method");
+    }
+}
