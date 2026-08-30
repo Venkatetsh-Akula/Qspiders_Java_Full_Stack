@@ -185,6 +185,13 @@ And if have any changes and pushing data to git hub
 
 		Explanation:-it is use get only all information from remote reopository to local repository like no.of files, no.of brnach ,no,of pull request etc
 
+----------> Git main branch and master branch issues
+
+		git branch -M main
+			
+			Explanation:- if my branch having master in local repository and having main is remote repository user above changes local repository as main then push the code
+
+
 	
 
 		
