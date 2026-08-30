@@ -10,6 +10,29 @@
 
 		Ex:-git config --user.name "Venkatesh-Akula"
 
+------>Git Base System Configuration check commands
+
+	 Run this code in Command Prompt
+
+		1.)git config --global user.name
+
+			Ex:- If username exsit it give user GitHub repository username
+
+		2.)git config --global user.email
+			Ex:- Command displays users registered mail id
+
+------>Git Base removing System Configuration
+	
+	Run this code in Command Prompt
+
+		1.)git config --global --unset user.name
+			
+			Ex:- remove username from existing configuration
+
+		2.)git config --global --unset user.email
+			
+			Ex:- remove user email from existing configuration
+
 ------>Git pushing Data To Remote Repository
 
 	1.)git status
